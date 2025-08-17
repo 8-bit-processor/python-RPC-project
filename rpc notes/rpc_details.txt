@@ -1,0 +1,680 @@
+ORQQ RPCs:
+*   ORQQPXRM GET WH REPORT TEXT: ien
+*   ORQQPXRM GET WH LETTER TEXT: WHRecNum
+*   ORQQPXRM REMINDERS UNEVALUATED: Patient.DFN, Encounter.Location
+*   ORQQPXRM REMINDER CATEGORIES: Patient.DFN, Encounter.Location
+*   ORQQPXRM EDUCATION SUMMARY: ReminderID
+*   ORQQPXRM EDUCATION SUBTOPICS: TopicID
+*   ORQQPXRM REMINDER WEB: ReminderID
+*   ORQQPXRM REMINDER DETAIL: Patient.DFN, IEN
+*   ORQQPX REMINDER DETAIL: Patient.DFN, IEN
+*   ORQQPXRM REMINDER INQUIRY: IEN
+*   ORQQPXRM EDUCATION TOPIC: IEN
+*   ORQQPXRM REMINDER DIALOG: IEN, Patient.DFN
+*   ORQQPXRM DIALOG PROMPTS: IEN, Historical, FindingType
+*   ORQQPX NEW REMINDERS ACTIVE: [] (no parameters)
+*   ORQQPXRM PROGRESS NOTE HEADER: Encounter.Location
+*   ORQQPXRM MENTAL HEALTH: TestName
+*   ORQQPXRM WOMEN HEALTH SAVE: WHData
+*   ORQQPXRM GEC DIALOG: RemIEN, Patient.DFN, Encounter.VisitStr, NoteIEN
+*   ORQQPXRM GEC FINISHED?: Patient.DFN, ans
+*   ORQQPXRM MST UPDATE: Patient.DFN, VDate, Sts, Prov, FType, FIEN, Res
+*   ORQQPX GET FOLDERS: [] (no parameters)
+*   ORQQPX SET FOLDERS: Value
+*   ORQQPX REM INSERT AT CURSOR: [] (no parameters)
+*   ORQQPX NEW COVER SHEET ACTIVE: [] (no parameters)
+*   ORQQPX LVREMLST: ALevel, AClass
+*   ORQQPXRM MHV: Patient.DFN, TestName, Answers
+*   ORQQPXRM MHDLLDMS: [] (no parameters)
+*   ORQQPL ADD SAVE: PatientInfo, ProviderID, ptVAMC, ProbFile, SearchString
+*   ORQQPL AUDIT HIST: ProblemIFN
+*   ORQQPL CLIN FILTER LIST: LocList
+*   ORQQPL CLIN SRCH: DummyArg
+*   ORQQPL DELETE: ProblemIFN, ProviderID, ptVAMC, Comment
+*   ORQQPL EDIT LOAD: ProblemIFN, ProviderID, ptVAMC
+*   ORQQPL EDIT SAVE: ProblemIFN, ProviderID, ptVAMC, PrimUser, ProbFile, SearchString
+*   ORQQPL INIT PT: PatientDFN
+*   ORQQPL INIT USER: ProviderID
+*   ORQQPL4 LEX: SearchFor, VIEW, ADate, True
+*   ORQQPL PROBLEM NTRT BULLETIN: term, ProviderID, PatientID, comment
+*   ORQQPL PROBLEM LIST: PatientDFN, Status, ADate
+*   ORQQPL PROV FILTER LIST: ProvList
+*   ORQQPL PROVIDER LIST: Flag, Number, From, Part
+*   ORQQPL REPLACE: ProblemIFN
+*   ORQQPL SERV FILTER LIST: LocList
+*   ORQQPL SRVC SRCH: StartFrom, Direction, BoolChar[All]
+*   ORQQPL UPDATE: AltProbFile
+*   ORQQPL VERIFY: ProblemIFN
+*   ORQQPL USER PROB CATS: Provider, Location
+*   ORQQPL USER PROB LIST: CategoryIEN
+*   ORQQPL PROB COMMENTS: ProblemIFN
+*   ORQQPL SAVEVIEW: ViewPref
+*   ORQQPL CHECK DUP: Patient.DFN, TermIEN, TermText
+*   ORQQPL DETAIL: Patient.DFN, IEN, ''
+*   ORQQAL DETAIL: Patient.DFN, IEN, ''
+*   ORQQAL LIST REPORT: Patient.DFN
+*   ORQQPS DETAIL: Patient.DFN, UpperCase(ID)
+*   ORQQPXRM REMINDERS APPLICABLE: Patient.DFN, Encounter.Location
+*   ORQQPX REMINDERS LIST: Patient.DFN
+*   ORQQPL LIST: Patient.DFN, ACTIVE_PROBLEMS
+*   ORQQAL LIST: Patient.DFN
+*   ORQQPP LIST: Patient.DFN
+*   ORQQVI VITALS: Patient.DFN
+*   ORQQPXRM GEC STATUS PROMPT: Patient.DFN
+
+ORWPT RPCs:
+*   ORWPT1 PCDETAIL: DFN
+*   ORWPT SHARE: DottedIPStr, IntToHex(AHandle, 8), DFN
+*   ORWPT DISCHARGE: DFN, AdmitDateTime
+*   ORWPT PTINQ: Patient.DFN
+*   ORWPT CLINRNG: nil
+*   ORWPT DFLTSRC: nil
+*   ORWPT SAVDFLT: x
+*   ORWPT BYWARD: WardIEN
+*   ORWPT OTHER-RADIOBUTTONS: othertext, caption
+*   ORWPT ENHANCED PATLOOKUP: othertext
+*   ORWPT LAST5: UpperCase(Last5)
+*   ORWPT LAST5 RPL: UpperCase(Last5)
+*   ORWPT FULLSSN: UpperCase(x)
+*   ORWPT FULLSSN RPL: UpperCase(x)
+*   ORWPT TOP: nil
+*   ORWPT LIST ALL: StartFrom, Direction
+*   ORWPT INPLOC: DFN
+*   ORWPT DIEDON: DFN
+*   ORWPT ID INFO: DFN
+*   ORWPT LEGACY: DFN
+*   ORWPT SELCHK: DFN
+*   ORWPT SELECT: DFN
+*   ORWPT1 PRCARE: DFN
+*   ORWPT ENCTITL: DFN, Location, Provider
+*   ORWPT APPTLST: DFN
+*   ORWPT ADMITLST: DFN
+
+ORWDX RPCs:
+*   ORWDXR ISNOW: OrderID
+*   ORWDX1 STCHANGE: Patient.DFN, MedID
+*   ORWDX CHANGE: pOrderList, Patient.DFN, IMO
+*   ORWDX1 PATWARD: Patient
+*   ORWDX1 DCREN: OrderID
+*   ORWDX1 DCORIG: OrderID
+
+ORBCMA RPCs: (None found)
+
+ORB3 RPCs: (None found)
+
+ORWU RPCs:
+*   ORWU TOOLMENU: nil
+*   ORWUX SYMTAB: nil
+*   ORWU PATCH: x
+*   ORWU VERSRV: Option, VerClient
+*   ORWU VERSION: Namespace
+*   ORWU DT: AString (or 'NOW')
+*   ORWU VALDT: AString, Flags
+*   ORWU EXTNAME: IEN, FileNumber
+*   ORWU NPHASKEY: APerson, AKey
+*   ORWU GBLREF: FileID
+*   ORWU GENERIC: StartFrom, Direction, GlobalRef
+*   ORWU DEVICE: StartFrom, Direction
+*   ORWU NEWPERS: StartFrom, Direction (and optionally 'PROVIDER', DateTime, '', True)
+*   ORWU USERINFO: nil
+*   ORWU PARAM: AParamName
+*   ORWU HASKEY: KeyName
+*   ORWU HAS OPTION ACCESS: OptionName
+*   ORWU VALIDSIG: Encrypt(ACode)
+*   ORWU2 COSIGNER: StartFrom, Direction, Date, ADocType, ATitle
+*   ORWU CLINLOC: StartFrom, Direction
+*   ORWU HOSPLOC: StartFrom, Direction
+*   ORWU1 NEWLOC: StartFrom, Direction
+*   ORWU INPLOC: StartFrom, Direction
+*   ORWU DEFAULT DIVISION: nil
+
+Other ORW RPCs:
+*   ORWPCE CPTREQD: IEN
+*   ORWPCE NOTEVSTR: IEN
+*   ORWTIU GET LISTBOX ITEM: IEN
+*   ORWTIU WINPRINT NOTE: ANote, ChartCopy
+*   ORWTIU GET TIU CONTEXT: User.DUZ
+*   ORWTIU SAVE TIU CONTEXT: x
+*   ORWTIU CANLINK: Title
+*   ORWTIU CHKTXT: NoteIEN
+*   ORWSR SHOW SURG TAB: nil
+*   ORWSR LIST: Patient.DFN, date1, date2, Context, Max
+*   ORWSR CASELIST: Patient.DFN
+*   ORWSR OPTOP NON-OR: ACaseIEN, ShowReport
+*   ORWSR OPTOP: ACaseIEN, ShowReport
+*   ORWSR GET SURG CONTEXT: User.DUZ
+*   ORWSR SAVE SURG CONTEXT: x
+*   ORWSR ONECASE: NoteIEN
+*   ORWSR SHOW OPTOP WHEN SIGNING: ACaseIEN
+*   ORWSR IS NON-OR PROCEDURE: ACaseIEN
+*   ORWCS LIST OF CONSULT REPORTS: Patient.DFN
+*   ORWCS REPORT TEXT: Patient.DFN, IEN
+*   ORWRP REPORT LISTS: nil
+*   ORWRP LAB REPORT LISTS: nil
+*   ORWRP3 EXPAND COLUMNS: Tab
+*   ORWRP COLUMN HEADERS: AReportType
+*   ORWCH SAVECOL: aColumn
+*   ORWRA IMAGING EXAMS1: Patient.DFN
+*   ORWMC PATIENT PROCEDURES1: Patient.DFN
+*   ORWRP1 LISTNUTR: Patient.DFN
+*   ORWSR RPTLIST: Patient.DFN
+*   ORWTPD GETIMG: nil
+*   ORWCIRN AUTORDV: nil
+*   ORWCIRN HDRON: nil
+*   ORWRP PRINT V REPORT: ADevice, Patient.DFN, AHeader, AReport
+*   ORWRP PRINT REMOTE REPORT: ADevice, Patient, ARpt, aHandles
+*   ORWRP PRINT REPORT: ADevice, Patient, ARpt, HSType
+*   ORWRP PRINT WINDOWS REMOTE: Patient, ARpt, aHandles
+*   ORWRP PRINT WINDOWS REPORT: Patient, ARpt, HSType
+*   ORWRP WINPRINT DEFAULT: [] (no parameters)
+*   ORWRP SAVE DEFAULT PRINTER: DefPrinter
+*   ORWRP2 HS FILE LOOKUP: aFile, StartFrom, Direction
+*   ORWRP2 HS COMP FILES: aComponent
+*   ORWRP2 HS SUBITEMS: aItem
+*   ORWRP2 HS REPORT TEXT: aComponents, Patient.DFN
+*   ORWRP2 HS COMPONENTS: nil
+*   ORWRP2 COMPABV: nil
+*   ORWRP2 COMPDISP: nil
+*   ORWRP2 HS COMPONENT SUBS: aItem
+*   ORWRP2 GETLKUP: nil
+*   ORWRP2 SAVLKUP: IntToStr(aLookup)
+*   ORWRP4 HDR MODIFY: aHandle, aID
+*   ORWCH LDFONT: nil
+*   ORWCH LOADALL: nil
+*   ORWCH SAVEALL: SizingList
+*   ORWCH SAVFONT: IntToStr(FontSize)
+*   ORWCH LOADSIZ: AName
+*   ORWPS DETAIL: Patient.DFN, UpperCase(ID)
+*   ORWPS MEDHIST: Patient.DFN, OrderID
+*   ORWPS ACTIVE: Patient.DFN, User.DUZ, view, '1'
+*   ORWPS1 NEWDLG: Patient.Inpatient
+*   ORWPS1 PICKUP: nil
+*   ORWPS1 REFILL: AnOrderID, PickUpAt, Patient.DFN, Encounter.Provider, Encounter.Location
+*   ORWLRR ATOMICS: StartFrom, Direction
+*   ORWLRR SPEC: StartFrom, Direction
+*   ORWLRR ALLTESTS: StartFrom, Direction
+*   ORWLRR CHEMTEST: StartFrom, Direction
+*   ORWLRR USERS: StartFrom, Direction
+*   ORWLRR TG: user
+*   ORWLRR ATESTS: test
+*   ORWLRR ATG: testgroup, user
+*   ORWLRR UTGA: tests
+*   ORWLRR UTGR: tests, testgroup
+*   ORWLRR UTGD: testgroup
+*   ORWLRR PARAM: nil
+*   ORWLRR INTERIMS: PatientDFN, ADate1, ADate2, tests
+*   ORWLRR INTERIMG: PatientDFN, ADate1, direction, format
+*   ORWLRR GRID: PatientDFN, ADate1, ADate2, spec, tests
+*   ORWLRR NEWOLD: PatientDFN
+*   ORWLRR CHART: PatientDFN, ADate1, ADate2, spec, test
+*   ORWRP PRINT LAB REMOTE: ADevice, PatientDFN, AReport, aHandles
+*   ORWRP PRINT LAB REPORTS: ADevice, PatientDFN, AReport
+*   ORWRP PRINT WINDOWS LAB REMOTE: PatientDFN, AReport, aHandles
+*   ORWRP WINPRINT LAB REPORTS: PatientDFN, AReport, ADaysBack, ATests
+*   ORWLRR INFO: Test
+*   ORWGRPC PUBLIC: nil
+*   ORWGRPC RPTPARAM: ien
+*   ORWGRPC DETAILS: PatientDFN, ADate1, ADate2, ATypeItem, includecomplete
+*   ORWGRPC DETAIL: PatientDFN, ADate1, ADate2, tests, includecomplete
+*   ORWGRPC FASTDATA: PatientDFN
+*   ORWGRPC FASTITEM: PatientDFN
+*   ORWGRPC FASTLABS: PatientDFN
+*   ORWGRPC FASTTASK: PatientDFN, oldDFN
+*   ORWGRPC ALLITEMS: PatientDFN
+*   ORWGRPC TYPES: PatientDFN, includesubtypes
+*   ORWGRPC ITEMS: PatientDFN, typeitem
+*   ORWGRPC CLASS: itemtype
+*   ORWGRPC TAX: getall, taxonomies
+*   ORWGRPC ITEMDATA: itemdata, timestamp, PatientDFN
+*   ORWGRPC GETDATES: reportid
+*   ORWGRPC GETPREF: nil
+*   ORWGRPC SETPREF: paramsetting, permission
+*   ORWGRPC GETSIZE: nil
+*   ORWGRPC SETSIZE: values
+*   ORWGRPC GETVIEWS: profiles, permission, ext, userx
+*   ORWGRPC SETVIEWS: paramname, permission, paramvalues
+*   ORWGRPC DELVIEWS: paramname, permission
+*   ORWGRPC TESTSPEC: [] (no parameters)
+*   ORWGRPC TESTING: [] (no parameters)
+*   ORWGRPC ALLVIEWS: vtype, user
+*   ORWGRPC LOOKUP: filename, StartFrom, Direction
+*   ORWGRPC DATEITEM: oldestdate, newestdate, filenum, PatientDFN
+*   ORWCOM PTOBJ: [] (no parameters)
+*   ORWCOM ORDEROBJ: DisplayGroup
+*   ORWCOM GETOBJS: [] (no parameters)
+*   ORWCOM DETAILS: IEN
+*   ORWTIU GET DCSUMM CONTEXT: User.DUZ
+*   ORWTIU SAVE DCSUMM CONTEXT: x
+*   ORWCV1 COVERSHEET LIST: nil
+*   ORWPS COVER: Patient.DFN
+*   ORWCV LAB: Patient.DFN
+*   ORWCV VST: Patient.DFN (and optionally From, Thru, SKIP_ADMITS)
+*   ORWCV POLL: Patient.DFN, IPAddr, IntToHex(AHandle, 8)
+*   ORWCV START: Patient.DFN, IPAddress, IntToHex(AHandle, 8)
+*   ORWCV STOP: ADFN, IPAddress, IntToHex(AHandle, 8)
+*   ORWORB KILL UNSIG ORDERS ALERT: PatientDFN
+*   ORWORB UNSIG ORDERS FOLLOWUP: XQAID
+*   ORWORB KILL EXPIR MED ALERT: PatientDFN
+*   ORWORB KILL EXPIR OI ALERT: PatientDFN, FollowUp
+*   ORWORB KILL UNVER MEDS ALERT: PatientDFN
+*   ORWORB KILL UNVER ORDERS ALERT: PatientDFN
+*   ORWORB AUTOUNFLAG ORDERS: PatientDFN, XQAID
+*   ORWORB GETSORT: nil
+*   ORWORB SETSORT: Sort, Direction
+*   ORWORB GETDATA: XQAID
+*   ORWORB TEXT FOLLOWUP: PatientDFN, Notification, XQADATA
+*   ORWPCE ICDVER: ADate
+*   ORWPCE I10IMPDT: nil
+*   ORWCIRN FACLIST: DFN
+*   ORWCIRN CHECKLINK: nil
+*   ORWCIRN WEBADDR: value
+*   ORWRP GET DEFAULT PRINTER: DUZ, Location
+*   ORWCH SAVESIZ: MEDS_SPLIT_FORM, strSizeFlds
+
+C0P ERX RPCs:
+*   C0P ERX PULLBACK: User.DUZ, Patient.DFN
+*   C0P ERX ORDER RPC: User.DUZ, Patient.DFN
+*   C0P ERX ALERT RPC: User.DUZ, Patient.DFN, 1, Notifications.RecordID
+
+DG CHK RPCs:
+*   DG CHK PAT/DIV MEANS TEST: DFN
+*   DG CHK BS5 XREF Y/N: DFN
+*   DG CHK BS5 XREF ARRAY: DFN
+
+DG SENSITIVE RPCs:
+*   DG SENSITIVE RECORD ACCESS: DFN
+*   DG SENSITIVE RECORD BULLETIN: DFN
+
+GMRC RPCs:
+*   GMRC LIST CONSULT REQUESTS: Patient.DFN
+
+GMV RPCs:
+*   GMV ORQQVI1 GRID: patient, date1, date2, restrictdates, tests
+*   GMV ORQQVI1 DETAIL: patient, date1, date2, 0, tests
+
+OR GET COMBAT VET RPCs:
+*   OR GET COMBAT VET: FDFN
+
+PXRM RPCs:
+*   PXRM REMINDER DIALOG (TIU): IEN, Patient.DFN
+*   PXRM REMINDER CATEGORY: CatIEN
+*   PXRM REMINDERS AND CATEGORIES: [] (no parameters)
+
+TIU RPCs:
+*   TIU PERSONAL TITLE LIST: User.DUZ, CLS_PROGRESS_NOTES (or SurgeryClass)
+*   TIU IS THIS A CONSULT?: TitleIEN
+*   TIU ISPRF: TitleIEN
+*   TIU IS THIS A CLINPROC?: TitleIEN
+*   TIU LOAD BOILERPLATE TEXT: Title, Patient.DFN, Encounter.VisitStr
+*   TIU GET PRINT NAME: TitleIEN
+*   TIU LONG LIST OF TITLES: CLS_PROGRESS_NOTES (or CLS_DC_SUMM), StartFrom, Direction, IDNotesOnly (or IDNoteTitlesOnly)
+*   TIU GET PERSONAL PREFERENCES: User.DUZ
+*   TIU REQUIRES COSIGNATURE: TYP_PROGRESS_NOTE (or ATitle), 0 (or ADocument), User.DUZ (or AnAuthor), ADate (optional)
+*   TIU AUTHORIZATION: IEN, ActionName
+*   TIU HAS AUTHOR SIGNED?: IEN, User.DUZ
+*   TIU WHICH SIGNATURE ACTION: IEN
+*   TIU DOCUMENTS BY CONTEXT: 3 (or CLS_DC_SUMM), Context, Patient.DFN, Early, Late, Person, OccLim, SortSeq, SHOW_ADDENDA
+*   TIU SUMMARIES: Patient.DFN
+*   TIU GET RECORD TEXT: IEN (or Piece(FDocList.Strings[x],'^',1))
+*   TIU DETAILED DISPLAY: IEN
+*   TIU LOAD RECORD FOR EDIT: IEN, '.01;.06;.07;1301;1204;1208;1701;1205;1405;2101;70201;70202' (or '.01;.06;.07;.09;1202;1205;1208;1209;1301;1302;1307;1701')
+*   TIU GET DOCUMENT TITLE: IEN
+*   TIU GET REQUEST: NoteIEN
+*   TIU LOCK RECORD: IEN
+*   TIU UNLOCK RECORD: IEN
+*   TIU WAS THIS SAVED?: IEN
+*   TIU DELETE RECORD: IEN, Reason
+*   TIU JUSTIFY DELETE?: IEN
+*   TIU SIGN RECORD: IEN, ESCode
+*   TIU GET DOCUMENT PARAMETERS: ANote (or 0, AType)
+*   TIU PRINT RECORD: ANote, ADevice, ChartCopy
+*   TIU GET ADDITIONAL SIGNERS: IEN
+*   TIU UPDATE ADDITIONAL SIGNERS: IEN, Signers
+*   TIU CAN CHANGE COSIGNER?: IEN
+*   TIU ONE VISIT NOTE?: IntToStr(NoteEIN),DFN,VisitStr
+*   TIU GET SITE PARAMETERS: [] (no parameters)
+*   TIU ID CAN ATTACH: DocID
+*   TIU ID CAN RECEIVE: DocID
+*   TIU ID ATTACH ENTRY: DocID, ParentDocID
+*   TIU ID DETACH ENTRY: DocID
+*   TIU USER CLASS LONG LIST: StartFrom, Direction
+*   TIU DIV AND CLASS INFO: User
+*   TIU USER INACTIVE?: EIN
+*   TIU IDENTIFY SURGERY CLASS: AClassName
+*   TIU LONG LIST SURGERY TITLES: StartFrom, Direction, AClassName
+*   TIU IS THIS A SURGERY?: TitleIEN
+*   TIU GET DS URGENCIES: nil
+*   TIU GET PRF TITLE: Patient.DFN,FlagID
+*   TIU GET LINKED PRF NOTES: DFN,TitleIEN,REVERSE_CHRONO
+*   TIU LINK TO FLAG: CreatedNote.IEN (or lstNotes.ItemIEN),PRF_IEN,ActionIEN,Patient.DFN
+*   TIU GET PRF ACTIONS: TitleIEN,DFN
+
+VAFCTFU RPCs:
+*   VAFCTFU CONVERT ICN TO DFN: AnICN
+
+XUS PKI RPCs:
+*   XUS PKI GET UPN: [] (no parameters)
+
+XWB RPCs:
+*   XWB DEFERRED CLEARALL: nil
+*   XWB REMOTE RPC: ASite, ARemoteRPC, 0, Patient.DFN + ';' + Patient.ICN (or PatientDFN, daysback, Adate1, Adate2)
+*   XWB DIRECT RPC: ASite, ARemoteRPC, 0, Patient.DFN + ';' + Patient.ICN (or Patient)
+*   XWB REMOTE STATUS CHECK: aHandle
+*   XWB REMOTE GETDATA: aHandle
+
+Missing RPCs (No direct calls found in .pas files):
+*   ORALWORD ALLWORD: Not found in direct code analysis.
+*   ORQQCN ADDCMT: Not found in direct code analysis.
+*   ORQQCN ADMIN COMPLETE: Not found in direct code analysis.
+*   ORQQCN ASSIGNABLE MED RESULTS: Not found in direct code analysis.
+*   ORQQCN ATTACH MED RESULTS: Not found in direct code analysis.
+*   ORQQCN CANEDIT: Not found in direct code analysis.
+*   ORQQCN DEFAULT REQUEST REASON: Not found in direct code analysis.
+*   ORQQCN DETAIL: Not found in direct code analysis.
+*   ORQQCN DISCONTINUE: Not found in direct code analysis.
+*   ORQQCN EDIT DEFAULT REASON: Not found in direct code analysis.
+*   ORQQCN FIND CONSULT: Not found in direct code analysis.
+*   ORQQCN FORWARD: Not found in direct code analysis.
+*   ORQQCN GET CONSULT: Not found in direct code analysis.
+*   ORQQCN GET MED RESULT DETAILS: Not found in direct code analysis.
+*   ORQQCN GET ORDER NUMBER: Not found in direct code analysis.
+*   ORQQCN GET PROC IEN: Not found in direct code analysis.
+*   ORQQCN GET PROC SVCS: Not found in direct code analysis.
+*   ORQQCN GET SERVICE IEN: Not found in direct code analysis.
+*   ORQQCN ISPROSVC: Not found in direct code analysis.
+*   ORQQCN LIST: Not found in direct code analysis.
+*   ORQQCN MED RESULTS: Not found in direct code analysis.
+*   ORQQCN PRINT SF513: Not found in direct code analysis.
+*   ORQQCN PROVDX: Not found in direct code analysis.
+*   ORQQCN RECEIVE: Not found in direct code analysis.
+*   ORQQCN REMOVABLE MED RESULTS: Not found in direct code analysis.
+*   ORQQCN REMOVE MED RESULTS: Not found in direct code analysis.
+*   ORQQCN SET ACT MENUS: Not found in direct code analysis.
+*   ORQQCN SF513 WINDOWS PRINT: Not found in direct code analysis.
+*   ORQQCN SHOW SF513: Not found in direct code analysis.
+*   ORQQCN SIGFIND: Not found in direct code analysis.
+*   ORQQCN STATUS: Not found in direct code analysis.
+*   ORQQCN SVC W/SYNONYMS: Not found in direct code analysis.
+*   ORQQCN SVCLIST: Not found in direct code analysis.
+*   ORQQCN SVCTREE: Not found in direct code analysis.
+*   ORQQCN UNRESOLVED: Not found in direct code analysis.
+*   ORQQCN URGENCIES: Not found in direct code analysis.
+*   ORQQCN2 GET CONTEXT: Not found in direct code analysis.
+*   ORQQCN2 GET PREREQUISITE: Not found in direct code analysis.
+*   ORQQCN2 SAVE CONTEXT: Not found in direct code analysis.
+*   ORQQCN2 SCHEDULE CONSULT: Not found in direct code analysis.
+*   ORQQVI NOTEVIT: Not found in direct code analysis.
+*   ORQQVI2 VITALS RATE CHECK: Not found in direct code analysis.
+*   ORQQVI3 GETVLIST: Not found in direct code analysis.
+*   ORQQVI3 GETVPREF: Not found in direct code analysis.
+*   ORQQVI3 SETVPREF: Not found in direct code analysis.
+*   ORWD1 COMLOC: Not found in direct code analysis.
+*   ORWD1 PARAM: Not found in direct code analysis.
+*   ORWD1 PRINTGUI: Not found in direct code analysis.
+*   ORWD1 RVPRINT: Not found in direct code analysis.
+*   ORWD1 SIG4ANY: Not found in direct code analysis.
+*   ORWD1 SIG4ONE: Not found in direct code analysis.
+*   ORWD1 SVONLY: Not found in direct code analysis.
+*   ORWD2 DEVINFO: Not found in direct code analysis.
+*   ORWD2 MANUAL: Not found in direct code analysis.
+*   ORWDAL32 ALLERGY MATCH: Not found in direct code analysis.
+*   ORWDAL32 CLINUSER: Not found in direct code analysis.
+*   ORWDAL32 DEF: Not found in direct code analysis.
+*   ORWDAL32 SITE PARAMS: Not found in direct code analysis.
+*   ORWDAL32 SYMPTOMS: Not found in direct code analysis.
+*   ORWDBA1 BASTATUS: Not found in direct code analysis.
+*   ORWDBA1 RCVORCI: Not found in direct code analysis.
+*   ORWDBA1 SCLST: Not found in direct code analysis.
+*   ORWDBA2 ADDPDL: Not found in direct code analysis.
+*   ORWDBA2 DELPDL: Not found in direct code analysis.
+*   ORWDBA4 GETBAUSR: Not found in direct code analysis.
+*   ORWDBA7 GETIEN9: Not found in direct code analysis.
+*   ORWDBA7 ISWITCH: Not found in direct code analysis.
+*   ORWDCN32 DEF: Not found in direct code analysis.
+*   ORWDCN32 NEWDLG: Not found in direct code analysis.
+*   ORWDCN32 ORDRMSG: Not found in direct code analysis.
+*   ORWDCN32 PROCEDURES: Not found in direct code analysis.
+*   ORWDFH ADDLATE: Not found in direct code analysis.
+*   ORWDFH ATTR: Not found in direct code analysis.
+*   ORWDFH CURISO: Not found in direct code analysis.
+*   ORWDFH CURRENT MEALS: Not found in direct code analysis.
+*   ORWDFH DIETS: Not found in direct code analysis.
+*   ORWDFH FINDTYP: Not found in direct code analysis.
+*   ORWDFH ISOIEN: Not found in direct code analysis.
+*   ORWDFH ISOLIST: Not found in direct code analysis.
+*   ORWDFH NFSLOC READY: Not found in direct code analysis.
+*   ORWDFH OPDIETS: Not found in direct code analysis.
+*   ORWDFH PARAM: Not found in direct code analysis.
+*   ORWDFH QTY2CC: Not found in direct code analysis.
+*   ORWDFH TFPROD: Not found in direct code analysis.
+*   ORWDFH TXT: Not found in direct code analysis.
+*   ORWDHTM GETIEN: Not found in direct code analysis.
+*   ORWDHTM HTML: Not found in direct code analysis.
+*   ORWDHTM URL: Not found in direct code analysis.
+*   ORWDLR32 ALLSPEC: Not found in direct code analysis.
+*   ORWDLR32 DEF: Not found in direct code analysis.
+*   ORWDLR32 GET LAB TIMES: Not found in direct code analysis.
+*   ORWDLR32 IC DEFAULT: Not found in direct code analysis.
+*   ORWDLR32 IC VALID: Not found in direct code analysis.
+*   ORWDLR32 IMMED COLLECT: Not found in direct code analysis.
+*   ORWDLR32 LAB COLL TIME: Not found in direct code analysis.
+*   ORWDLR32 MAXDAYS: Not found in direct code analysis.
+*   ORWDLR32 ONE SAMPLE: Not found in direct code analysis.
+*   ORWDLR32 ONE SPECIMEN: Not found in direct code analysis.
+*   ORWDLR32 STOP: Not found in direct code analysis.
+*   ORWDLR33 FUTURE LAB COLLECTS: Not found in direct code analysis.
+*   ORWDLR33 LASTTIME: Not found in direct code analysis.
+*   ORWDLR33 LC TO WC: Not found in direct code analysis.
+*   ORWDOR LKSCRN: Not found in direct code analysis.
+*   ORWDOR VALNUM: Not found in direct code analysis.
+*   ORWDOR VMSLCT: Not found in direct code analysis.
+*   ORWDPS ALLSCHD: Not found in direct code analysis.
+*   ORWDPS1 CHK94: Not found in direct code analysis.
+*   ORWDPS1 DFLTSPLY: Not found in direct code analysis.
+*   ORWDPS1 DOSEALT: Not found in direct code analysis.
+*   ORWDPS1 DOWSCH: Not found in direct code analysis.
+*   ORWDPS1 FAILDEA: Not found in direct code analysis.
+*   ORWDPS1 FORMALT: Not found in direct code analysis.
+*   ORWDPS1 HASOIPI: Not found in direct code analysis.
+*   ORWDPS1 HASROUTE: Not found in direct code analysis.
+*   ORWDPS1 IVDEA: Not found in direct code analysis.
+*   ORWDPS1 LOCPICK: Not found in direct code analysis.
+*   ORWDPS1 ODSLCT: Not found in direct code analysis.
+*   ORWDPS1 QOMEDALT: Not found in direct code analysis.
+*   ORWDPS1 SCHALL: Not found in direct code analysis.
+*   ORWDPS2 ADMIN: Not found in direct code analysis.
+*   ORWDPS2 CHKGRP: Not found in direct code analysis.
+*   ORWDPS2 CHKPI: Not found in direct code analysis.
+*   ORWDPS2 DAY2QTY: Not found in direct code analysis.
+*   ORWDPS2 MAXREF: Not found in direct code analysis.
+*   ORWDPS2 OISLCT: Not found in direct code analysis.
+*   ORWDPS2 QOGRP: Not found in direct code analysis.
+*   ORWDPS2 QTY2DAY: Not found in direct code analysis.
+*   ORWDPS2 REQST: Not found in direct code analysis.
+*   ORWDPS2 SCHREQ: Not found in direct code analysis.
+*   ORWDPS32 ALLIVRTE: Not found in direct code analysis.
+*   ORWDPS32 ALLROUTE: Not found in direct code analysis.
+*   ORWDPS32 AUTH: Not found in direct code analysis.
+*   ORWDPS32 AUTHNVA: Not found in direct code analysis.
+*   ORWDPS32 DLGSLCT: Not found in direct code analysis.
+*   ORWDPS32 DRUGMSG: Not found in direct code analysis.
+*   ORWDPS32 FORMALT: Not found in direct code analysis.
+*   ORWDPS32 ISSPLY: Not found in direct code analysis.
+*   ORWDPS32 IVAMT: Not found in direct code analysis.
+*   ORWDPS32 MEDISIV: Not found in direct code analysis.
+*   ORWDPS32 OISLCT: Not found in direct code analysis.
+*   ORWDPS32 SCSTS: Not found in direct code analysis.
+*   ORWDPS32 VALQTY: Not found in direct code analysis.
+*   ORWDPS32 VALRATE: Not found in direct code analysis.
+*   ORWDPS32 VALROUTE: Not found in direct code analysis.
+*   ORWDPS32 VALSCH: Not found in direct code analysis.
+*   ORWDPS33 COMPLOC: Not found in direct code analysis.
+*   ORWDPS33 GETADDFR: Not found in direct code analysis.
+*   ORWDPS33 IVDOSFRM: Not found in direct code analysis.
+*   ORWDPS4 IPOD4OP: Not found in direct code analysis.
+*   ORWDPS4 ISUDIV: Not found in direct code analysis.
+*   ORWDPS4 UPDTDG: Not found in direct code analysis.
+*   ORWDPS5 ISVTP: Not found in direct code analysis.
+*   ORWDPS5 LESAPI: Not found in direct code analysis.
+*   ORWDPS5 LESGRP: Not found in direct code analysis.
+*   ORWDRA32 APPROVAL: Not found in direct code analysis.
+*   ORWDRA32 DEF: Not found in direct code analysis.
+*   ORWDRA32 IMTYPSEL: Not found in direct code analysis.
+*   ORWDRA32 ISOLATN: Not found in direct code analysis.
+*   ORWDRA32 LOCTYPE: Not found in direct code analysis.
+*   ORWDRA32 PROCMSG: Not found in direct code analysis.
+*   ORWDRA32 RADSRC: Not found in direct code analysis.
+*   ORWDRA32 RAORDITM: Not found in direct code analysis.
+*   ORWDX AGAIN: Not found in direct code analysis.
+*   ORWDX DGNM: Not found in direct code analysis.
+*   ORWDX DGRP: Not found in direct code analysis.
+*   ORWDX DISMSG: Not found in direct code analysis.
+*   ORWDX DLGDEF: Not found in direct code analysis.
+*   ORWDX DLGID: Not found in direct code analysis.
+*   ORWDX FORMID: Not found in direct code analysis.
+*   ORWDX LOADRSP: Not found in direct code analysis.
+*   ORWDX LOCK: Not found in direct code analysis.
+*   ORWDX LOCK ORDER: Not found in direct code analysis.
+*   ORWDX MSG: Not found in direct code analysis.
+*   ORWDX ORDITM: Not found in direct code analysis.
+*   ORWDX SEND: Not found in direct code analysis.
+*   ORWDX SENDED: Not found in direct code analysis.
+*   ORWDX SENDP: Not found in direct code analysis.
+*   ORWDX UNLOCK: Not found in direct code analysis.
+*   ORWDX UNLOCK ORDER: Not found in direct code analysis.
+*   ORWDX WRLST: Not found in direct code analysis.
+*   ORWDX1 ORDMATCH: Not found in direct code analysis.
+*   ORWDX1 UNDCORIG: Not found in direct code analysis.
+*   ORWDX2 DCREASON: Not found in direct code analysis.
+*   ORWDXA ALERT: Not found in direct code analysis.
+*   ORWDXA COMPLETE: Not found in direct code analysis.
+*   ORWDXA DC: Not found in direct code analysis.
+*   ORWDXA DCREQIEN: Not found in direct code analysis.
+*   ORWDXA FLAG: Not found in direct code analysis.
+*   ORWDXA FLAGTXT: Not found in direct code analysis.
+*   ORWDXA HOLD: Not found in direct code analysis.
+*   ORWDXA ISACTOI: Not found in direct code analysis.
+*   ORWDXA OFCPLX: Not found in direct code analysis.
+*   ORWDXA UNFLAG: Not found in direct code analysis.
+*   ORWDXA UNHOLD: Not found in direct code analysis.
+*   ORWDXA VALID: Not found in direct code analysis.
+*   ORWDXA VERIFY: Not found in direct code analysis.
+*   ORWDXA WCGET: Not found in direct code analysis.
+*   ORWDXA WCPUT: Not found in direct code analysis.
+*   ORWDXC ACCEPT: Not found in direct code analysis.
+*   ORWDXC DELAY: Not found in direct code analysis.
+*   ORWDXC DELORD: Not found in direct code analysis.
+*   ORWDXC DISPLAY: Not found in direct code analysis.
+*   ORWDXC FILLID: Not found in direct code analysis.
+*   ORWDXC ON: Not found in direct code analysis.
+*   ORWDXC SAVECHK: Not found in direct code analysis.
+*   ORWDXC SESSION: Not found in direct code analysis.
+*   ORWDXM AUTOACK: Not found in direct code analysis.
+*   ORWDXM DLGNAME: Not found in direct code analysis.
+*   ORWDXM FORMID: Not found in direct code analysis.
+*   ORWDXM LOADSET: Not found in direct code analysis.
+*   ORWDXM MENU: Not found in direct code analysis.
+*   ORWDXM MSTYLE: Not found in direct code analysis.
+*   ORWDXM PROMPTS: Not found in direct code analysis.
+*   ORWDXM RSCRN: Not found in direct code analysis.
+*   ORWDXM1 BLDQRSP: Not found in direct code analysis.
+*   ORWDXM1 SVRPC: Not found in direct code analysis.
+*   ORWDXM2 CLRRCL: Not found in direct code analysis.
+*   ORWDXM3 ISUDQO: Not found in direct code analysis.
+*   ORWDXQ DLGNAME: Not found in direct code analysis.
+*   ORWDXQ GETQLST: Not found in direct code analysis.
+*   ORWDXQ GETQNAM: Not found in direct code analysis.
+*   ORWDXQ PUTQLST: Not found in direct code analysis.
+*   ORWDXQ PUTQNAM: Not found in direct code analysis.
+*   ORWDXR CANRN: Not found in direct code analysis.
+*   ORWDXR GETPKG: Not found in direct code analysis.
+*   ORWDXR GTORITM: Not found in direct code analysis.
+*   ORWDXR ISCPLX: Not found in direct code analysis.
+*   ORWDXR ISREL: Not found in direct code analysis.
+*   ORWDXR ORCPLX: Not found in direct code analysis.
+*   ORWDXR RNWFLDS: Not found in direct code analysis.
+*   ORWDXR01 CANCHG: Not found in direct code analysis.
+*   ORWDXR01 ISSPLY: Not found in direct code analysis.
+*   ORWDXR01 OXDATA: Not found in direct code analysis.
+*   ORWDXR01 SAVCHG: Not found in direct code analysis.
+*   ORWDXVB NURSADMN: Not found in direct code analysis.
+*   ORWDXVB STATALOW: Not found in direct code analysis.
+*   ORWDXVB SUBCHK: Not found in direct code analysis.
+*   ORWDXVB VBTNS: Not found in direct code analysis.
+*   ORWDXVB3 COLLTIM: Not found in direct code analysis.
+*   ORWDXVB3 SWPANEL: Not found in direct code analysis.
+*   ORWLEX GETALTS: Not found in direct code analysis.
+*   ORWLEX GETFREQ: Not found in direct code analysis.
+*   ORWLEX GETI10DX: Not found in direct code analysis.
+*   ORWNSS CHKSCH: Not found in direct code analysis.
+*   ORWNSS NSSMSG: Not found in direct code analysis.
+*   ORWNSS QOSCH: Not found in direct code analysis.
+*   ORWNSS VALSCH: Not found in direct code analysis.
+*   ORWOR ACTION TEXT: Not found in direct code analysis.
+*   ORWOR EXPIRED: Not found in direct code analysis.
+*   ORWOR PKISITE: Not found in direct code analysis.
+*   ORWOR PKIUSE: Not found in direct code analysis.
+*   ORWOR RESULT: Not found in direct code analysis.
+*   ORWOR RESULT HISTORY: Not found in direct code analysis.
+*   ORWOR SHEETS: Not found in direct code analysis.
+*   ORWOR TSALL: Not found in direct code analysis.
+*   ORWOR VWGET: Not found in direct code analysis.
+*   ORWOR VWSET: Not found in direct code analysis.
+*   ORWOR1 CHKDIG: Not found in direct code analysis.
+*   ORWOR1 GETDSCH: Not found in direct code analysis.
+*   ORWOR1 GETDTEXT: Not found in direct code analysis.
+*   ORWOR1 SETDTEXT: Not found in direct code analysis.
+*   ORWOR1 SIG: Not found in direct code analysis.
+*   ORWORDG ALLTREE: Not found in direct code analysis.
+*   ORWORDG IEN: Not found in direct code analysis.
+*   ORWORDG REVSTS: Not found in direct code analysis.
+*   ORWORR AGET: Not found in direct code analysis.
+*   ORWORR GET: Not found in direct code analysis.
+*   ORWORR GET4LST: Not found in direct code analysis.
+*   ORWORR GETBYIFN: Not found in direct code analysis.
+*   ORWORR GETDEA: Not found in direct code analysis.
+*   ORWORR GETDSIG: Not found in direct code analysis.
+*   ORWORR GETTXT: Not found in direct code analysis.
+*   ORWORR RGET: Not found in direct code analysis.
+*   ORWPCE ACTIVE CODE: Not found in direct code analysis.
+*   ORWPCE ACTIVE PROV: Not found in direct code analysis.
+*   ORWPCE ALWAYS CHECKOUT: Not found in direct code analysis.
+*   ORWPCE ANYTIME: Not found in direct code analysis.
+*   ORWPCE ASKPCE: Not found in direct code analysis.
+*   ORWPCE AUTO VISIT TYPE SELECT: Not found in direct code analysis.
+*   ORWPCE CPTMODS: Not found in direct code analysis.
+*   ORWPCE CXNOSHOW: Not found in direct code analysis.
+*   ORWPCE DELETE: Not found in direct code analysis.
+*   ORWPCE FORCE: Not found in direct code analysis.
+*   ORWPCE GAFOK: Not found in direct code analysis.
+*   ORWPCE GAFURL: Not found in direct code analysis.
+*   ORWPCE GET DX TEXT: Not found in direct code analysis.
+*   ORWPCE GET EXCLUDED: Not found in direct code analysis.
+*   ORWPCE GET VISIT: Not found in direct code analysis.
+*   ORWPCE GETMOD: Not found in direct code analysis.
+*   ORWPCE GETSVC: Not found in direct code analysis.
+*   ORWPCE HASVISIT: Not found in direct code analysis.
+*   ORWPCE HNCOK: Not found in direct code analysis.
+*   ORWPCE ISCLINIC: Not found in direct code analysis.
+*   ORWPCE LEXCODE: Not found in direct code analysis.
+*   ORWPCE MH TEST AUTHORIZED: Not found in direct code analysis.
+*   ORWPCE MHCLINIC: Not found in direct code analysis.
+*   ORWPCE MHTESTOK: Not found in direct code analysis.
+*   ORWPCE PCE4NOTE: Not found in direct code analysis.
+*   ORWPCE SAVE: Not found in direct code analysis.
+*   ORWPCE SCDIS: Not found in direct code analysis.
+*   ORWPCE SCSEL: Not found in direct code analysis.
+*   ORWPCE VISIT: Not found in direct code analysis.
+*   ORWPCE1 NONCOUNT: Not found in direct code analysis.
+*   ORWPCE4 LEX: Not found in direct code analysis.
+*   ORWUL FV4DG: Not found in direct code analysis.
+*   ORWUL FVIDX: Not found in direct code analysis.
+*   ORWUL FVSUB: Not found in direct code analysis.
+*   ORWUL QV4DG: Not found in direct code analysis.
+*   ORWUL QVIDX: Not found in direct code analysis.
+*   ORWUL QVSUB: Not found in direct code analysis.
+*   ORWUX SYMTAB: Not found in direct code analysis.
+*   ORWVITALS SAVE: Not found in direct code analysis.
+*   VWTIME BRIEF AGE: Not found in direct code analysis.
+*   VWTIME LONG AGE: Not found in direct code analysis.
+*   XUS PKI SET UPN: Not found in direct code analysis.

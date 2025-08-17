@@ -1,0 +1,213 @@
+
+Broker called, parameters passed in -> Broker returns a string or list
+
+There are core rpcs : 
+1)TChanges-documents orders and PCE date,  
+2)TEncounter- Location,Provider,DateTime,Visit Category,etc 
+3)TPatient DFN,Name,SSN,DOB,etc. 
+4)TUser-DUZ,NAME,UserClass, HasKey,etc.
+
+CPRS Frame Form has Cover Sheet RPCs, Ordering RPCs(ordering objects ,order list, order dialogs) TIU and PCE RPCs(document Objects note encounter)  tab specific RPCs(tab specific objects)
+
+Some Key points:
+1)HL7 messages used to communicate order state and result information between ancillary packages and CORS 
+2)API calls used to obtain reference and local configuration data from packages for ordering
+3)Order Checking uses pharmacy APIs to check drug-drug interactions
+4)Templates & TIU objects may be used for any text field in CPRS (i.e. consult reason for request in ordering dialog)
+5)Notes, Discharge Summaries, Op Reports, Consults are all TIU documents arranged in as inheritance tree
+
+CPRS GUI core chart objects referenced by all other chart objects
+
+1)patient selection- loads TPatient (DFN,identification Name SSN Birthdate,Sex,Age,ward/Room-Bed, Relavant characteristics{Inpatient,ServiceConnected,Postings,PostingFlags,PostingList,PostingDetail,Details,Demographics}
+
+2)Login loads fields TUser (IEN,Name, HasKey(KeyName),prefer(PreferenceName)->New Person file, Parameters file, ASU APIs
+
+3)Encounter Selection loads fields TEncounter-( or any update of Patient Chart loads these fields -DateTime,VisitEN,ProviderEN,ProviderNme,LocationIEN,LocationName,Procedures,Diagnosis) -> PCE APIs
+
+These thre objects exist in their own unit All CPRS objects use this unit
+Only one instance of each object should exist at a given time
+Three functions are provided to allow other CPRS objects to refer to the actual instances of these objects
+1)PatIFN- returns an integer representing the patients DFM (0 if the patient object is not defined).
+2)PrvIFN- returns an integer representing the internal entry number of the currently selected provider (0 id not defined)
+	-PrvIEN-DUZ if the user has the ORES key
+3)LocIFN- returns an integer representing an internal entry number in the Hospital Location file (0 is not defined)
+
+Global objects used by all units
+Patient:TPatient
+User:TUser
+Encounter:TEncounter
+Problems: PL
+Allergies: Patient
+PostingsL Patient
+Meds:ML
+Notifications:NT
+Labs:LB
+Vitals:Patient
+Appointments:Patient
+
+Later:
+AL: TAllergyTracking
+CR: TClinicalReminders
+VT: TVitals
+
+PL:TProblemList
+ML:TMedList
+
+OE:TOrderEntry
+List:Orders in current View
+List:New & Edited Notes
+
+DS: TDischargeSummary
+
+TDLgXXX-procs,Diag,...
+
+EI: TENcounterItems
+
+LB:Tlaboratory
+
+IM:TImaging
+
+CS:TConsults
+
+PR:TPRocedures
+
+RP:TReports
+
+
+
+  Core RPC Functions:
+
+
+  The ORNet.pas unit defines the primary functions for interacting with the VistA server via the RPC Broker.
+   The most important ones are:
+
+
+   * CallV(const RPCName: string; const AParam: array of const): Executes an RPC that doesn't return a value.
+   * sCallV(const RPCName: string; const AParam: array of const): string: Executes an RPC and returns a single
+      string value.
+   * tCallV(ReturnData: TStrings; const RPCName: string; const AParam: array of const): Executes an RPC and
+     returns a list of strings in the ReturnData parameter.
+
+  Parameter Handling:
+
+
+  The SetParams procedure in ORNet.pas is responsible for constructing the parameter list for the RPC call.
+  It iterates through an array of constants (AParam) and sets the RPCBrokerV.Param properties accordingly.
+  The type of each parameter is determined by its VType.
+
+  Here's a breakdown of how different data types are handled:
+
+
+
+  ┌────────────┬───────────────────┬─────────────────────────────────────────────────────────────────┐
+  │ VType      │ Description       │ How it's passed                                                 │
+  ├────────────┼───────────────────┼─────────────────────────────────────────────────────────────────┤
+  │ `vtInte... │ Integer           │ Converted to a string.                                          │
+  │ `vtBool... │ Boolean           │ '1' for true, '0' for false.                                    │
+  │ `vtChar`   │ Character         │ Passed as a single-character string.                            │
+  │ `vtExte... │ Floating-point... │ Converted to a string.                                          │
+  │ `vtString` │ String            │ Passed as a string. If the string starts with `#1`, it's tre... │
+  │ `vtPChar`  │ Pointer to a c... │ Converted to a string.                                          │
+  │ `vtObject` │ TStrings object   │ Passed as a list of strings.                                    │
+  │ `vtAnsi... │ AnsiString        │ Passed as a string. If the string starts with `#1`, it's tre... │
+  │ `vtInt64`  │ 64-bit integer    │ Converted to a string.                                          │
+  └────────────┴───────────────────┴─────────────────────────────────────────────────────────────────┘
+
+  Shared Data and Procedures:
+
+
+  The dShared.pas unit, while not directly involved in the RPC calls themselves, is crucial for managing
+  data that is used across different parts of the application. For example, the LoadTIUObjects procedure in
+  dShared.pas calls the GetObjectList RPC to populate a list of TIU objects. This demonstrates how the core
+  RPC functions in ORNet.pas are used by other units to retrieve data from the server.
+
+  The following files are central to the implementation of TIU documents and templates:
+
+
+   * `uTemplates.pas`: This is the most important file for understanding templates. It defines the TTemplate
+     class, which represents a template with its properties, such as boilerplate text, child items, and links
+     to other documents.
+   * `uTIU.pas`: This unit defines the core data structures for TIU, including TTIUContext, which holds the
+     user's current context within the TIU document tree.
+   * `uTemplateFields.pas`: This unit defines the TTemplateField class, which represents the dynamic fields
+     that can be embedded within a template's boilerplate text.
+   * `rTIU.pas`: This unit contains the RPCs (Remote Procedure Calls) used to communicate with the VistA
+     server for all TIU-related operations, such as loading templates, saving documents, and checking for
+     signatures.
+   * `fNotes.pas`, `fDCSumm.pas`, `fSurgery.pas`, `fConsults.pas`: These are the main forms for creating and
+     editing different types of TIU documents. They all contain code for loading and interacting with
+     templates.
+   * `dShared.pas`: This is a shared data module that contains common procedures and functions for working
+     with templates and TIU objects, used across different parts of the application.
+
+  Core Concepts in the Code
+
+  The source code reveals a sophisticated system for managing textual data. Here are the key concepts I've
+  identified:
+
+  1. TIU Document Hierarchy
+
+
+  The concept of a TIU document "inheritance tree" is implemented through a hierarchical structure of
+  document classes on the VistA server. The CPRS client reflects this structure in its user interface,
+  particularly in the document tree view.
+
+
+   * `uDocTree.pas`: This unit contains the logic for building and managing the tree view of TIU documents
+     that you see in the CPRS client.
+   * `TIU DOCUMENTS BY CONTEXT` RPC: This is a crucial RPC used to retrieve a list of documents based on a
+     specific context (e.g., patient, document class, date range). The client uses this RPC to populate the
+     document tree.
+
+
+  2. Templates (TTemplate class)
+
+  Templates are a cornerstone of the CPRS text entry system. They are not just simple text snippets but are
+  represented by a powerful TTemplate class defined in uTemplates.pas.
+
+
+   * `TTemplate` class: This class has properties to manage:
+       * `Boilerplate`: The actual text of the template.
+       * `Items`: A list of child templates, allowing for nested and complex template structures.
+       * `PrintName`: The display name of the template.
+       * `FileLink`: A property to link a template to a specific TIU document type (like a progress note title
+          or a consult reason).
+
+  3. Boilerplate Text
+
+  "Boilerplate" is the term used in the code to refer to the content of a template. The code includes
+  procedures for loading, manipulating, and inserting this text into documents.
+
+
+   * `LoadBoilerPlate` function (in `rTIU.pas`): This function is called to retrieve the boilerplate text for
+     a given TIU title.
+   * `ExecuteTemplateOrBoilerPlate` procedure: This procedure, found in various forms like fNotes.pas and
+     fSurgery.pas, is responsible for taking a template's boilerplate text and inserting it into the editor,
+     processing any embedded objects or fields.
+
+  4. Template Fields
+
+  Templates can contain dynamic fields that prompt the user for input. These are handled by the TTemplateField
+   class.
+
+
+   * `uTemplateFields.pas`: This unit defines the TTemplateField class and related functions. It supports
+     various field types, such as edit boxes, combo boxes, and checkboxes.
+   * `{FLD:...}` syntax: The boilerplate text of a template can contain special tags like {FLD:FIELD_NAME} to
+     indicate where a template field should be inserted. The client code parses this syntax to create the
+     appropriate input controls for the user.
+
+  Relevant RPCs
+
+
+  The interaction between the CPRS client and the VistA server for templates and TIU is handled by a large
+  number of RPCs. Here are a few examples that illustrate the depth of this interaction:
+
+
+   * `TIU TEMPLATE GETROOTS`: Retrieves the root-level templates for the user.
+   * `TIU TEMPLATE GETITEMS`: Retrieves the child items for a given template.
+   * `TIU TEMPLATE GETBOIL`: Retrieves the boilerplate text for a template.
+   * `TIU FIELD LOAD`: Loads the definition of a template field.
+   * `TIU CREATE RECORD`: Creates a new TIU document on the server.
+   * `TIU UPDATE RECORD`: Updates an existing TIU document.
+

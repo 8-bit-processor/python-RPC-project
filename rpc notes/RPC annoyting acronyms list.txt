@@ -1,0 +1,53 @@
+  A DFN (Internal Entry Number) is VistA's unique identifier for a patient. It's how the system internally
+  tracks and links all patient-related data (notes, labs, orders, etc.). If you don't have access to patient
+   DFNs, we won't be able to successfully call any patient-specific RPCs like TIU SUMMARIES, TIU DOCUMENTS
+  BY CONTEXT, or TIU GET RECORD TEXT.
+
+
+✦ Assuming "EIN" is a typo for "IEN" (Internal Entry Number), you can get the IEN for a specific note by first
+   listing the available notes for a patient. The IEN is the unique identifier for each note that you'll need
+  for RPCs like TIU GET RECORD TEXT.
+
+  Here is the process using the vista_rpc_gui.py application:
+
+
+   1. List Patient Notes:
+       * In the GUI, select the TIU DOCUMENTS BY CONTEXT RPC from the dropdown.
+       * Enter the parameters. For example, to get all notes for patient with DFN 100001, you would use:
+         literal:3;literal:100001;literal:;literal:;literal:;literal:;literal:;literal:1
+       * Click "Invoke RPC".
+
+
+   2. Identify the IEN from the Response:
+       * The "Raw RPC Response" text area will show a list of notes. Each line typically represents a
+         different note and starts with its IEN.
+       * For example, you might see output like this:
+
+   1         12345^Progress Note^...
+   2         12346^Discharge Summary^...
+   3         12347^Consult Report^...
+
+       * In this example, 12345, 12346, and 12347 are the IENs for the respective notes.
+
+
+   3. Use the IEN to Get Note Content:
+       * Select the TIU GET RECORD TEXT RPC from the dropdown.
+       * In the parameters box, enter the IEN of the note you want to view, like this: literal:12345
+       * Click "Invoke RPC" to see the full text of that specific note.
+
+                      FEATURES OF THE KERNEL
+WELCOME TO THE KERNEL!
+
+The Kernel is the central set of DHCP utility programs.  This includes
+the VA File Manager, Menu Manager, Sign-on/Security System, Device
+Handler, Task Manager, and MailMan.  All DHCP application packages,
+such as Laboratory or Pharmacy, rest upon the central Kernel utilities.
+
+(As you know, the VA's Decentralized Hospital Computer Program is called
+DHCP.  It primarily uses the computer language called MUMPS, that's the
+Massachusetts General Hospital Utility Multiprogramming System.)
+
+You use the Kernel when you sign-on, navigate among menus, print reports,
+or send electronic mail messages.  The Help Processor, the system you are
+using right now, is also part of the Kernel.
+

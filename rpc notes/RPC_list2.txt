@@ -1,0 +1,118 @@
+  Potential RPCs for Alerts:
+   * ORB DELETE ALERT
+   * ORB FORWARD ALERT
+   * ORB RENEW ALERT
+   * ORQQAL DETAIL
+   * ORQQAL LIST
+   * ORQQAL LIST REPORT
+   * ORWDXA ALERT
+   * ORWORB KILL EXPIR MED ALERT
+   * ORWORB KILL EXPIR OI ALERT
+   * ORWORB KILL UNSIG ORDERS ALERT
+   * ORWORB KILL UNVER MEDS ALERT
+   * ORWORB KILL UNVER ORDERS ALERT
+   * TIU GET ALERT INFO
+
+
+  Potential RPCs for Medications (including Pharmacy/Orders):
+   * C0P ERX ORDER RPC
+   * ORDDPAPI ADMTIME
+   * ORDEA CSVALUE (and other ORDEA RPCs)
+   * ORWDPS (many RPCs starting with this prefix, likely related to pharmacy/dispensing)
+   * ORWPS ACTIVE
+   * ORWPS COVER
+   * ORWPS DETAIL
+   * ORWPS MEDHIST
+   * ORWPS1 NEWDLG
+   * ORWPS1 PICKUP
+   * ORWPS1 REFILL
+
+
+  Potential RPCs for Lab Reports:
+   * ORWCV LAB
+   * ORWDLR32 (many RPCs starting with this prefix, likely related to lab data)
+   * ORWDLR33 (many RPCs starting with this prefix, likely related to lab data)
+   * ORWLRR (many RPCs starting with this prefix, highly likely related to lab results/reports)
+   * ORWRP LAB REPORT LISTS
+   * ORWRP PRINT LAB REMOTE
+   * ORWRP PRINT LAB REPORTS
+   * ORWRP PRINT WINDOWS LAB REMOTE
+   * ORWRP WINPRINT LAB REPORTS
+   * ORWTPO CSLABD
+   * ORWTPP CSLAB
+
+
+  Now, I will read the content of rpc_details.txt to see if it provides more specific information or
+  parameters for these RPCs.
+ ╭──────────────────────────────╮
+ │ ✔  ReadFile rpc_details.txt  │
+ ╰──────────────────────────────╯
+✦ Based on the cprs_rpc_list.txt and rpc_details.txt files, here are the RPCs that appear relevant to alerts,
+  medications, and lab reports, along with their known parameters:
+
+  RPCs for Alerts:
+
+
+   * `ORB DELETE ALERT`, `ORB FORWARD ALERT`, `ORB RENEW ALERT`: These likely manage alert actions. Parameters
+      are not specified in rpc_details.txt.
+   * `ORQQAL DETAIL`: Patient.DFN, IEN, '' (Retrieves detailed alert information for a patient by Internal
+     Entry Number (IEN)).
+   * `ORQQAL LIST`: Patient.DFN (Lists alerts for a specific patient).
+   * `ORQQAL LIST REPORT`: Patient.DFN (Generates a report of alerts for a patient).
+   * `ORWDXA ALERT`: Likely triggers or handles an alert. Parameters not specified.
+   * `ORWORB KILL EXPIR MED ALERT`: PatientDFN (Clears expired medication alerts for a patient).
+   * `ORWORB KILL EXPIR OI ALERT`: PatientDFN, FollowUp (Clears expired orderable item alerts for a patient).
+   * `ORWORB KILL UNSIG ORDERS ALERT`: PatientDFN (Clears unsigned orders alerts for a patient).
+   * `ORWORB KILL UNVER MEDS ALERT`: PatientDFN (Clears unverified medications alerts for a patient).
+   * `ORWORB KILL UNVER ORDERS ALERT`: PatientDFN (Clears unverified orders alerts for a patient).
+   * `TIU GET ALERT INFO`: Parameters not specified, but likely retrieves information about a specific alert.
+   * `C0P ERX ALERT RPC`: User.DUZ, Patient.DFN, 1, Notifications.RecordID (Related to e-prescription alerts).
+
+  RPCs for Medications (including Pharmacy/Orders):
+
+
+   * `C0P ERX ORDER RPC`: User.DUZ, Patient.DFN (Related to e-prescription orders).
+   * `ORDDPAPI ADMTIME`: Parameters not specified, likely related to administration times.
+   * `ORDEA CSVALUE` (and other ORDEA RPCs like DEATEXT, HASHINFO, LNKMSG, ORDHINFO, PINLKCHK, PINLKSET,
+     PNDHLD, SIGINFO): These RPCs are likely related to DEA (Drug Enforcement Administration) controlled
+     substance handling and information. Parameters vary.
+   * `ORWDPS` (various RPCs starting with this prefix, e.g., ALLSCHD, DFLTSPLY, DOSEALT, FORMALT, IVDEA,
+     SCHALL, ADMIN, MAXREF, QTY2DAY, REFILL, ALLIVRTE, ALLROUTE, DRUGMSG, IVAMT, MEDISIV, VALQTY, VALRATE,
+     VALROUTE, VALSCH): These are extensively used for pharmacy and medication order entry, validation, and
+     dispensing. Parameters are numerous and specific to each function.
+   * `ORWPS ACTIVE`: Patient.DFN, User.DUZ, view, '1' (Retrieves active medications for a patient).
+   * `ORWPS COVER`: Patient.DFN (Likely retrieves medication information for a cover sheet).
+   * `ORWPS DETAIL`: Patient.DFN, UpperCase(ID) (Retrieves detailed medication information by ID).
+   * `ORWPS MEDHIST`: Patient.DFN, OrderID (Retrieves medication history for a patient by order ID).
+   * `ORWPS1 NEWDLG`: Patient.Inpatient (Initiates a new medication dialogue, possibly for inpatient).
+   * `ORWPS1 PICKUP`: nil (Likely related to medication pickup).
+   * `ORWPS1 REFILL`: AnOrderID, PickUpAt, Patient.DFN, Encounter.Provider, Encounter.Location (Handles
+     medication refills).
+   * `ORWDX1 STCHANGE`: Patient.DFN, MedID (Changes the status of a medication).
+   * `ORWDX CHANGE`: pOrderList, Patient.DFN, IMO (General order change, can apply to medications).
+
+  RPCs for Lab Reports:
+
+
+   * `ORWCV LAB`: Patient.DFN (Retrieves lab data for a patient).
+   * `ORWDLR32` (various RPCs starting with this prefix, e.g., ALLSPEC, GET LAB TIMES, IC DEFAULT, IC VALID,
+     IMMED COLLECT, LAB COLL TIME, MAXDAYS, ONE SAMPLE, ONE SPECIMEN, STOP): These are related to lab data
+     collection, specimen handling, and time management.
+   * `ORWDLR33` (various RPCs starting with this prefix, e.g., FUTURE LAB COLLECTS, LASTTIME, LC TO WC): These
+      likely deal with future lab collections and time conversions.
+   * `ORWLRR` (many RPCs starting with this prefix, e.g., ATOMICS, SPEC, ALLTESTS, CHEMTEST, USERS, TG,
+     ATESTS, ATG, UTGA, UTGR, UTGD, PARAM, INTERIMS, INTERIMG, GRID, NEWOLD, CHART, INFO): These are highly
+     relevant for retrieving and displaying lab results, including specific tests, groups, and charting.
+     Parameters often include PatientDFN, ADate1, ADate2, tests, spec.
+   * `ORWRP LAB REPORT LISTS`: nil (Lists available lab reports).
+   * `ORWRP PRINT LAB REMOTE`: ADevice, PatientDFN, AReport, aHandles (Prints lab reports remotely).
+   * `ORWRP PRINT LAB REPORTS`: ADevice, PatientDFN, AReport (Prints lab reports).
+   * `ORWRP PRINT WINDOWS LAB REMOTE`: PatientDFN, AReport, aHandles (Prints lab reports for Windows clients).
+   * `ORWRP WINPRINT LAB REPORTS`: PatientDFN, AReport, ADaysBack, ATests (Prints Windows lab reports with
+     date and test filters).
+   * `ORWTPO CSLABD`: Parameters not specified, but likely related to lab data for cover sheets.
+   * `ORWTPP CSLAB`: Parameters not specified, also likely related to lab data for cover sheets.
+   * `GMV ORQQVI1 GRID`: patient, date1, date2, restrictdates, tests (While primarily for Vitals, it's often
+     used in conjunction with lab data for charting).
+   * `GMV ORQQVI1 DETAIL`: patient, date1, date2, 0, tests (Similar to the GRID RPC, for detailed vital
+     information).
