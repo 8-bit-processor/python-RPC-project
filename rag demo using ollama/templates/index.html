@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Pipeline UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        .query-section, .response-section, .events-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .event-log {
+            height: 200px;
+            overflow-y: scroll;
+            border: 1px solid #eee;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+        .source-document {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            border-left: 3px solid #007bff;
+        }
+        .source-document h3 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RAG Pipeline UI</h1>
+
+        <div class="query-section">
+            <h2>Ask a Question</h2>
+            <textarea id="queryInput" rows="4" placeholder="Enter your query here..."></textarea>
+            <button onclick="sendQuery()">Submit Query</button>
+        </div>
+
+        <div class="response-section">
+            <h2>Answer</h2>
+            <p id="answerOutput">Waiting for your query...</p>
+            <h2>Source Documents</h2>
+            <div id="sourceDocumentsOutput">No source documents yet.</div>
+        </div>
+
+        <div class="events-section">
+            <h2>Engine Events</h2>
+            <div id="eventLog" class="event-log"></div>
+        </div>
+    </div>
+
+    <script>
+        async function sendQuery() {
+            const query = document.getElementById('queryInput').value;
+            if (!query) return;
+
+            document.getElementById('answerOutput').innerText = 'Searching for an answer...';
+            document.getElementById('sourceDocumentsOutput').innerHTML = 'Searching for relevant documents...';
+
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    document.getElementById('answerOutput').innerText = data.answer;
+                    const sourceDocsDiv = document.getElementById('sourceDocumentsOutput');
+                    sourceDocsDiv.innerHTML = '';
+                    if (data.source_documents && data.source_documents.length > 0) {
+                        data.source_documents.forEach(doc => {
+                            const docDiv = document.createElement('div');
+                            docDiv.className = 'source-document';
+                            docDiv.innerHTML = `<h3>${doc.source}</h3><p>${doc.content}</p>`;
+                            sourceDocsDiv.appendChild(docDiv);
+                        });
+                    } else {
+                        sourceDocsDiv.innerText = 'No source documents found.';
+                    }
+                } else {
+                    document.getElementById('answerOutput').innerText = `Error: ${data.error || response.statusText}`;
+                    document.getElementById('sourceDocumentsOutput').innerText = 'Error retrieving source documents.';
+                }
+            } catch (error) {
+                document.getElementById('answerOutput').innerText = `Network error: ${error}`;
+                document.getElementById('sourceDocumentsOutput').innerText = 'Network error.';
+            }
+        }
+
+        async function fetchEvents() {
+            try {
+                const response = await fetch('/events');
+                const data = await response.json();
+                const eventLogDiv = document.getElementById('eventLog');
+                // Clear and re-populate to ensure latest state
+                eventLogDiv.innerHTML = '';
+                data.events.forEach(event => {
+                    const p = document.createElement('p');
+                    p.innerText = event;
+                    eventLogDiv.appendChild(p);
+                });
+                eventLogDiv.scrollTop = eventLogDiv.scrollHeight; // Auto-scroll to bottom
+            } catch (error) {
+                console.error('Error fetching events:', error);
+            }
+        }
+
+        // Fetch events every 2 seconds
+        setInterval(fetchEvents, 2000);
+
+        // Initial fetch of events
+        fetchEvents();
+    </script>
+</body>
+</html>

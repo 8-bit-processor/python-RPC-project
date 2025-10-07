@@ -1,0 +1,10 @@
+ollama
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+pypdf
+unstructured
+sentence-transformers
+faiss-cpu
+Flask
