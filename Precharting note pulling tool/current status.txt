@@ -1,0 +1,9 @@
+✦ Project Goal: Develop a VistA RPC client GUI. allowing users to select multiple patients
+  add them to a list, and then retrieve and display the first n-notes for each patient -reports can be called to the main log
+   window.
+
+  Current Status:
+
+
+   * GUI: tkinter based, with a streamlined interface.
+ 
