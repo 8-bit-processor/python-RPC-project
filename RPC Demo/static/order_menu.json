@@ -1,0 +1,10 @@
+[
+    {"name": "Medications (Inpatient)", "code": "S.UD RX"},
+    {"name": "Medications (Outpatient)", "code": "S.O RX"},
+    {"name": "Labs", "code": "LAB"},
+    {"name": "Radiology", "code": "RA"},
+    {"name": "Consults", "code": "CON"},
+    {"name": "Dietetics", "code": "DIET"},
+    {"name": "Procedures", "code": "PROC"},
+    {"name": "Supplies", "code": "SUP"}
+]

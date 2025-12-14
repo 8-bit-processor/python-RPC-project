@@ -1,0 +1,4110 @@
+[
+    {
+        "IEN": "267",
+        "Name": " "
+    },
+    {
+        "IEN": "276",
+        "Name": " "
+    },
+    {
+        "IEN": "442",
+        "Name": "%LD1"
+    },
+    {
+        "IEN": "431",
+        "Name": "1,25-DIHYDROXYVIT D"
+    },
+    {
+        "IEN": "1198",
+        "Name": "1/2HR LTT"
+    },
+    {
+        "IEN": "470",
+        "Name": "1/2Hr.GTT"
+    },
+    {
+        "IEN": "478",
+        "Name": "1/2Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "237",
+        "Name": "11-DEOXYCORTISOL"
+    },
+    {
+        "IEN": "615",
+        "Name": "17-HYDROXYCORTICOSTEROIDS"
+    },
+    {
+        "IEN": "1199",
+        "Name": "1HR LTT"
+    },
+    {
+        "IEN": "471",
+        "Name": "1Hr.GTT"
+    },
+    {
+        "IEN": "479",
+        "Name": "1Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "5083",
+        "Name": "24 HR URINE CALCIUM"
+    },
+    {
+        "IEN": "5108",
+        "Name": "24 HR URINE PROTEIN"
+    },
+    {
+        "IEN": "392",
+        "Name": "25 OH VITAMIN D"
+    },
+    {
+        "IEN": "1200",
+        "Name": "2HR LTT"
+    },
+    {
+        "IEN": "472",
+        "Name": "2Hr.GTT"
+    },
+    {
+        "IEN": "480",
+        "Name": "2Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "1201",
+        "Name": "3HR LTT"
+    },
+    {
+        "IEN": "473",
+        "Name": "3Hr.GTT"
+    },
+    {
+        "IEN": "481",
+        "Name": "3Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "1003",
+        "Name": "3P"
+    },
+    {
+        "IEN": "474",
+        "Name": "4Hr.GTT"
+    },
+    {
+        "IEN": "482",
+        "Name": "4Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "202",
+        "Name": "5' NUCLEOTIDASE"
+    },
+    {
+        "IEN": "163",
+        "Name": "5HIAA"
+    },
+    {
+        "IEN": "475",
+        "Name": "5Hr.GTT"
+    },
+    {
+        "IEN": "483",
+        "Name": "5Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "497",
+        "Name": "6Hr.GTT"
+    },
+    {
+        "IEN": "498",
+        "Name": "6Hr.GTT (URINE)"
+    },
+    {
+        "IEN": "519",
+        "Name": "A&N"
+    },
+    {
+        "IEN": "1250",
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ (12"
+    },
+    {
+        "IEN": "1256",
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ (123)"
+    },
+    {
+        "IEN": "1250",
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ (123456789)"
+    },
+    {
+        "IEN": "1256",
+        "Name": "ABCDEFGHIJKLMNOPQRSTUVWXYZ (AB"
+    },
+    {
+        "IEN": "1250",
+        "Name": "ABCEDFGHIJKLMNOPQRSTUVWXYZ (AB"
+    },
+    {
+        "IEN": "506",
+        "Name": "ABHBC"
+    },
+    {
+        "IEN": "507",
+        "Name": "ABHBS"
+    },
+    {
+        "IEN": "1116",
+        "Name": "ABNORMAL FORMS"
+    },
+    {
+        "IEN": "320",
+        "Name": "ABO TITER"
+    },
+    {
+        "IEN": "5111",
+        "Name": "ABO/RH - LAB"
+    },
+    {
+        "IEN": "354",
+        "Name": "ABSOLUTE BASOPHILS"
+    },
+    {
+        "IEN": "1353",
+        "Name": "ABSOLUTE EOSINIPHILS"
+    },
+    {
+        "IEN": "361",
+        "Name": "ABSOLUTE LYMPHOCYTES"
+    },
+    {
+        "IEN": "359",
+        "Name": "ABSOLUTE NEUTROPHILS"
+    },
+    {
+        "IEN": "1149",
+        "Name": "ACANTHOCYTES"
+    },
+    {
+        "IEN": "303",
+        "Name": "ACETAMINOPHEN"
+    },
+    {
+        "IEN": "193",
+        "Name": "ACETONE"
+    },
+    {
+        "IEN": "439",
+        "Name": "ACETYLCHOLINE RECEPTOR"
+    },
+    {
+        "IEN": "194",
+        "Name": "ACID PHOSPHATASE"
+    },
+    {
+        "IEN": "208",
+        "Name": "ACTH"
+    },
+    {
+        "IEN": "1119",
+        "Name": "AFB CULTURE & SMEAR"
+    },
+    {
+        "IEN": "546",
+        "Name": "AFB SMEAR DIRECT"
+    },
+    {
+        "IEN": "5127",
+        "Name": "AFRICAN AMERICAN eGFR"
+    },
+    {
+        "IEN": "1315",
+        "Name": "AGLUCOSE"
+    },
+    {
+        "IEN": "185",
+        "Name": "ALBUMIN"
+    },
+    {
+        "IEN": "1420",
+        "Name": "ALBUMIN"
+    },
+    {
+        "IEN": "454",
+        "Name": "ALCOHOL PROFILE"
+    },
+    {
+        "IEN": "454",
+        "Name": "ALCOHOLS"
+    },
+    {
+        "IEN": "227",
+        "Name": "ALDOLASE"
+    },
+    {
+        "IEN": "228",
+        "Name": "ALDOSTERONE"
+    },
+    {
+        "IEN": "563",
+        "Name": "ALK PHOSPHATASE, HEAT LABILE"
+    },
+    {
+        "IEN": "564",
+        "Name": "ALK PHOSPHATASE, HEAT STABLE"
+    },
+    {
+        "IEN": "188",
+        "Name": "ALK. PHOSPHATASE"
+    },
+    {
+        "IEN": "188",
+        "Name": "ALKALINE PHOSPHATASE"
+    },
+    {
+        "IEN": "119",
+        "Name": "ALPHA 1-ANTITRYPSIN"
+    },
+    {
+        "IEN": "119",
+        "Name": "ALPHA-1-ANTITRYPSIN"
+    },
+    {
+        "IEN": "115",
+        "Name": "ALPHA-FETOPROTEIN"
+    },
+    {
+        "IEN": "191",
+        "Name": "ALT"
+    },
+    {
+        "IEN": "690",
+        "Name": "ALUMINUM"
+    },
+    {
+        "IEN": "166",
+        "Name": "AM PHOSPHATE CRYSTALS"
+    },
+    {
+        "IEN": "165",
+        "Name": "AM URATE CRYSTALS"
+    },
+    {
+        "IEN": "1302",
+        "Name": "AMIK"
+    },
+    {
+        "IEN": "1302",
+        "Name": "AMIKACIN"
+    },
+    {
+        "IEN": "1304",
+        "Name": "AMIKACIN, PEAK"
+    },
+    {
+        "IEN": "374",
+        "Name": "AMIKACIN, RANDOM"
+    },
+    {
+        "IEN": "1303",
+        "Name": "AMIKACIN, TROUGH"
+    },
+    {
+        "IEN": "304",
+        "Name": "AMINOLEVULINIC ACID"
+    },
+    {
+        "IEN": "211",
+        "Name": "AMINOPHYLLINE"
+    },
+    {
+        "IEN": "229",
+        "Name": "AMITRIPTYLINE"
+    },
+    {
+        "IEN": "519",
+        "Name": "AMITRIPTYLINE & NORTRIPTYLINE"
+    },
+    {
+        "IEN": "206",
+        "Name": "AMMONIA"
+    },
+    {
+        "IEN": "213",
+        "Name": "AMPHETAMINES"
+    },
+    {
+        "IEN": "196",
+        "Name": "AMY"
+    },
+    {
+        "IEN": "519",
+        "Name": "AMY"
+    },
+    {
+        "IEN": "196",
+        "Name": "AMYLASE"
+    },
+    {
+        "IEN": "120",
+        "Name": "ANA"
+    },
+    {
+        "IEN": "553",
+        "Name": "ANA."
+    },
+    {
+        "IEN": "1174",
+        "Name": "ANAEROBE IDENTIFICATION"
+    },
+    {
+        "IEN": "553",
+        "Name": "ANAEROBIC CULTURE"
+    },
+    {
+        "IEN": "305",
+        "Name": "ANDROSTENEDIONE"
+    },
+    {
+        "IEN": "215",
+        "Name": "ANGIOTENSIN-1"
+    },
+    {
+        "IEN": "215",
+        "Name": "ANGIOTENSIN-1-CONV"
+    },
+    {
+        "IEN": "224",
+        "Name": "ANGIOTENSIN1"
+    },
+    {
+        "IEN": "1160",
+        "Name": "ANION GAP"
+    },
+    {
+        "IEN": "25",
+        "Name": "ANISOCYTOSIS"
+    },
+    {
+        "IEN": "232",
+        "Name": "ANTI MITOCHONDRIAL"
+    },
+    {
+        "IEN": "231",
+        "Name": "ANTI SMOOTH MUSCLE"
+    },
+    {
+        "IEN": "526",
+        "Name": "ANTI-DEOXYRIBONUCLEASE"
+    },
+    {
+        "IEN": "306",
+        "Name": "ANTI-DNA ANTIBODY"
+    },
+    {
+        "IEN": "412",
+        "Name": "ANTI-GLOM BASEMENT MEM"
+    },
+    {
+        "IEN": "1127",
+        "Name": "ANTI-HAV, IgM"
+    },
+    {
+        "IEN": "307",
+        "Name": "ANTI-HYALURONIDASE TITER"
+    },
+    {
+        "IEN": "308",
+        "Name": "ANTI-MICROSOMAL ANTIBODY"
+    },
+    {
+        "IEN": "309",
+        "Name": "ANTI-MITOCHONDRIAL ANTIBODIES"
+    },
+    {
+        "IEN": "311",
+        "Name": "ANTI-PARIETAL CELL ANTIBODY"
+    },
+    {
+        "IEN": "312",
+        "Name": "ANTI-THYROGLOBULIN ANTIBODY"
+    },
+    {
+        "IEN": "547",
+        "Name": "ANTIBIOTIC LEVEL"
+    },
+    {
+        "IEN": "5112",
+        "Name": "ANTIBODY SCREEN - LAB"
+    },
+    {
+        "IEN": "32",
+        "Name": "ANTICOAGULANTS"
+    },
+    {
+        "IEN": "462",
+        "Name": "ANTIEPILEPTICS"
+    },
+    {
+        "IEN": "310",
+        "Name": "ANTIMONY"
+    },
+    {
+        "IEN": "120",
+        "Name": "ANTINUCLEAR ANTIBODY"
+    },
+    {
+        "IEN": "121",
+        "Name": "ANTISTREPTOLYSIN SC"
+    },
+    {
+        "IEN": "94",
+        "Name": "ANTITHROMBIN III"
+    },
+    {
+        "IEN": "1334",
+        "Name": "ANYTHING"
+    },
+    {
+        "IEN": "489",
+        "Name": "APP"
+    },
+    {
+        "IEN": "489",
+        "Name": "APPEARANCE"
+    },
+    {
+        "IEN": "1209",
+        "Name": "ARBOVIRUS CALIF TITER"
+    },
+    {
+        "IEN": "1210",
+        "Name": "ARBOVIRUS EEE TITER"
+    },
+    {
+        "IEN": "1211",
+        "Name": "ARBOVIRUS SLE TITER"
+    },
+    {
+        "IEN": "1212",
+        "Name": "ARBOVIRUS WEE TITER"
+    },
+    {
+        "IEN": "260",
+        "Name": "ARSENIC"
+    },
+    {
+        "IEN": "122",
+        "Name": "ASO"
+    },
+    {
+        "IEN": "190",
+        "Name": "AST"
+    },
+    {
+        "IEN": "1301",
+        "Name": "ASTRA GLUCOSE"
+    },
+    {
+        "IEN": "1315",
+        "Name": "ASTRA GLUCOSE"
+    },
+    {
+        "IEN": "94",
+        "Name": "AT III"
+    },
+    {
+        "IEN": "351",
+        "Name": "ATYPICAL LYMPHOCYTES"
+    },
+    {
+        "IEN": "1179",
+        "Name": "AUTOCLAVE STERILITY TESTING, B"
+    },
+    {
+        "IEN": "1179",
+        "Name": "AUTOCLAVE STERILITY TESTING, BACT"
+    },
+    {
+        "IEN": "293",
+        "Name": "AUTOPSY"
+    },
+    {
+        "IEN": "669",
+        "Name": "B 12"
+    },
+    {
+        "IEN": "1224",
+        "Name": "B LYMPHOCYTES"
+    },
+    {
+        "IEN": "669",
+        "Name": "B-12"
+    },
+    {
+        "IEN": "515",
+        "Name": "B-HCG"
+    },
+    {
+        "IEN": "5128",
+        "Name": "B-TYPE NATRIURETIC PEPTIDE"
+    },
+    {
+        "IEN": "1361",
+        "Name": "B.P.T."
+    },
+    {
+        "IEN": "669",
+        "Name": "B12"
+    },
+    {
+        "IEN": "12",
+        "Name": "BANDS"
+    },
+    {
+        "IEN": "212",
+        "Name": "BARBITURATES"
+    },
+    {
+        "IEN": "54",
+        "Name": "BASE EXCESS"
+    },
+    {
+        "IEN": "5109",
+        "Name": "BASIC METABOLIC PANEL"
+    },
+    {
+        "IEN": "16",
+        "Name": "BASO"
+    },
+    {
+        "IEN": "1352",
+        "Name": "BATH TEST, PEAK"
+    },
+    {
+        "IEN": "1351",
+        "Name": "BATH TEST, TROUGH"
+    },
+    {
+        "IEN": "1366",
+        "Name": "BB CBC-TEST"
+    },
+    {
+        "IEN": "1142",
+        "Name": "BC"
+    },
+    {
+        "IEN": "708",
+        "Name": "BENZODIAZEPINES"
+    },
+    {
+        "IEN": "434",
+        "Name": "BETHESDA ASY"
+    },
+    {
+        "IEN": "55",
+        "Name": "BICARBONATE (SBC)"
+    },
+    {
+        "IEN": "186",
+        "Name": "BILIRUBIN,TOTAL"
+    },
+    {
+        "IEN": "1122",
+        "Name": "BILIRUBIN,TOTAL & DIRECT"
+    },
+    {
+        "IEN": "366",
+        "Name": "BIOPSY"
+    },
+    {
+        "IEN": "433",
+        "Name": "BLASTS"
+    },
+    {
+        "IEN": "37",
+        "Name": "BLEEDING TIME"
+    },
+    {
+        "IEN": "1142",
+        "Name": "BLOOD CULTURE SET #1"
+    },
+    {
+        "IEN": "5091",
+        "Name": "BLOOD CULTURE SET #2"
+    },
+    {
+        "IEN": "279",
+        "Name": "BLOOD GASES"
+    },
+    {
+        "IEN": "1298",
+        "Name": "BLOOD GTT"
+    },
+    {
+        "IEN": "175",
+        "Name": "BLOOD SUGAR"
+    },
+    {
+        "IEN": "1140",
+        "Name": "BLOOD SUGAR"
+    },
+    {
+        "IEN": "174",
+        "Name": "BLOOD UREA NITROGEN"
+    },
+    {
+        "IEN": "5128",
+        "Name": "BNP"
+    },
+    {
+        "IEN": "1361",
+        "Name": "BPT"
+    },
+    {
+        "IEN": "216",
+        "Name": "BR"
+    },
+    {
+        "IEN": "216",
+        "Name": "BROMIDE"
+    },
+    {
+        "IEN": "1361",
+        "Name": "BRONX"
+    },
+    {
+        "IEN": "1361",
+        "Name": "BRONX PROBLEM TEST"
+    },
+    {
+        "IEN": "5066",
+        "Name": "BRONX TEST"
+    },
+    {
+        "IEN": "313",
+        "Name": "BRUCELLA AGGLUTINATION"
+    },
+    {
+        "IEN": "37",
+        "Name": "BT"
+    },
+    {
+        "IEN": "1352",
+        "Name": "BTP"
+    },
+    {
+        "IEN": "5066",
+        "Name": "BTST"
+    },
+    {
+        "IEN": "1351",
+        "Name": "BTT"
+    },
+    {
+        "IEN": "174",
+        "Name": "BUN"
+    },
+    {
+        "IEN": "1146",
+        "Name": "BURR CELLS"
+    },
+    {
+        "IEN": "314",
+        "Name": "BUTABARBITAL"
+    },
+    {
+        "IEN": "449",
+        "Name": "BUTALBITAL"
+    },
+    {
+        "IEN": "1132",
+        "Name": "C DIFFICILE CULTURE/TOXIN"
+    },
+    {
+        "IEN": "523",
+        "Name": "C-DIFFICILE TOXIN"
+    },
+    {
+        "IEN": "233",
+        "Name": "C-PEPTIDE"
+    },
+    {
+        "IEN": "123",
+        "Name": "C-REACTIVE PROTEIN"
+    },
+    {
+        "IEN": "5072",
+        "Name": "C.DIFFICILE (BUFFALO)"
+    },
+    {
+        "IEN": "548",
+        "Name": "C/S"
+    },
+    {
+        "IEN": "450",
+        "Name": "C1 ESTERASE INHIBIT."
+    },
+    {
+        "IEN": "331",
+        "Name": "C2"
+    },
+    {
+        "IEN": "268",
+        "Name": "C20"
+    },
+    {
+        "IEN": "125",
+        "Name": "C3"
+    },
+    {
+        "IEN": "126",
+        "Name": "C4"
+    },
+    {
+        "IEN": "332",
+        "Name": "C5"
+    },
+    {
+        "IEN": "180",
+        "Name": "CA"
+    },
+    {
+        "IEN": "168",
+        "Name": "CA++ OXALATE CRYSTALS"
+    },
+    {
+        "IEN": "315",
+        "Name": "CADMIUM"
+    },
+    {
+        "IEN": "217",
+        "Name": "CALCITONIN"
+    },
+    {
+        "IEN": "180",
+        "Name": "CALCIUM"
+    },
+    {
+        "IEN": "1161",
+        "Name": "CALCULATED OSMOLALITY"
+    },
+    {
+        "IEN": "540",
+        "Name": "CALCULUS"
+    },
+    {
+        "IEN": "1168",
+        "Name": "CAMPYLOBACTER CULTURE"
+    },
+    {
+        "IEN": "234",
+        "Name": "CANDIDA PRECIPITANS"
+    },
+    {
+        "IEN": "728",
+        "Name": "CANNABINOIDS"
+    },
+    {
+        "IEN": "373",
+        "Name": "CARBAMAZEPINE"
+    },
+    {
+        "IEN": "179",
+        "Name": "CARBON DIOXIDE"
+    },
+    {
+        "IEN": "316",
+        "Name": "CARBON TETRACHLORIDE"
+    },
+    {
+        "IEN": "288",
+        "Name": "CARCINOEMBRYONIC ANTIGEN"
+    },
+    {
+        "IEN": "543",
+        "Name": "CARDIAC ENZYMES"
+    },
+    {
+        "IEN": "444",
+        "Name": "CARDIAC ISOENZYMES"
+    },
+    {
+        "IEN": "5094",
+        "Name": "CARDIAC PANEL"
+    },
+    {
+        "IEN": "424",
+        "Name": "CARISPRODAL"
+    },
+    {
+        "IEN": "317",
+        "Name": "CAROTENE"
+    },
+    {
+        "IEN": "1334",
+        "Name": "CATCHALL"
+    },
+    {
+        "IEN": "253",
+        "Name": "CATECHOLAMINES"
+    },
+    {
+        "IEN": "495",
+        "Name": "CATECHOLAMINES, FRACT."
+    },
+    {
+        "IEN": "71",
+        "Name": "CBC"
+    },
+    {
+        "IEN": "276",
+        "Name": "CBC & DIFF (WITH MORPHOLOGY)"
+    },
+    {
+        "IEN": "1364",
+        "Name": "CD4"
+    },
+    {
+        "IEN": "1365",
+        "Name": "CD4 %"
+    },
+    {
+        "IEN": "5072",
+        "Name": "CDF"
+    },
+    {
+        "IEN": "288",
+        "Name": "CEA"
+    },
+    {
+        "IEN": "286",
+        "Name": "CELL COUNT (FLUID)"
+    },
+    {
+        "IEN": "235",
+        "Name": "CERULOPLASMIN"
+    },
+    {
+        "IEN": "5100",
+        "Name": "CHEM 10 TEST (BRONX)"
+    },
+    {
+        "IEN": "268",
+        "Name": "CHEM 20"
+    },
+    {
+        "IEN": "1272",
+        "Name": "CHEM 3"
+    },
+    {
+        "IEN": "1273",
+        "Name": "CHEM 4"
+    },
+    {
+        "IEN": "267",
+        "Name": "CHEM 7"
+    },
+    {
+        "IEN": "5070",
+        "Name": "CHEM/RIA PANEL"
+    },
+    {
+        "IEN": "5068",
+        "Name": "CHEMISTRY ADMISSION PANEL"
+    },
+    {
+        "IEN": "1338",
+        "Name": "CHEMISTRY FLUIDS"
+    },
+    {
+        "IEN": "1341",
+        "Name": "CHEMISTRY FLUIDS"
+    },
+    {
+        "IEN": "1167",
+        "Name": "CHLAMYDIA CULTURE"
+    },
+    {
+        "IEN": "1367",
+        "Name": "CHLAMYDIA TEST (MANCHESTER)"
+    },
+    {
+        "IEN": "395",
+        "Name": "CHLAMYDIA TITER"
+    },
+    {
+        "IEN": "581",
+        "Name": "CHLORDIAZEPOXIDE"
+    },
+    {
+        "IEN": "178",
+        "Name": "CHLORIDE"
+    },
+    {
+        "IEN": "318",
+        "Name": "CHLORPHENIRAMINE"
+    },
+    {
+        "IEN": "319",
+        "Name": "CHLORPROMAZINE"
+    },
+    {
+        "IEN": "183",
+        "Name": "CHOLESTEROL"
+    },
+    {
+        "IEN": "1123",
+        "Name": "CHOLESTEROL CRYSTALS"
+    },
+    {
+        "IEN": "264",
+        "Name": "CHOLINESTERASE"
+    },
+    {
+        "IEN": "326",
+        "Name": "CHOLYLGLYCINE"
+    },
+    {
+        "IEN": "327",
+        "Name": "CHORIONIC GONADOTROPIN"
+    },
+    {
+        "IEN": "328",
+        "Name": "CHROMIUM"
+    },
+    {
+        "IEN": "490",
+        "Name": "CHYLOMICRONS"
+    },
+    {
+        "IEN": "386",
+        "Name": "CIE"
+    },
+    {
+        "IEN": "386",
+        "Name": "CIE SCREEN"
+    },
+    {
+        "IEN": "523",
+        "Name": "CIE: CLOSTRIDIUM DIFFICILE"
+    },
+    {
+        "IEN": "445",
+        "Name": "CIE: GROUP B STREPTOCOCCUS"
+    },
+    {
+        "IEN": "524",
+        "Name": "CIE: H. INFLUENZA"
+    },
+    {
+        "IEN": "447",
+        "Name": "CIE: MENINGOCOCCUS"
+    },
+    {
+        "IEN": "446",
+        "Name": "CIE: PNEUMOCOCCUS"
+    },
+    {
+        "IEN": "1324",
+        "Name": "CK ISO'S"
+    },
+    {
+        "IEN": "1268",
+        "Name": "CK PROFILE"
+    },
+    {
+        "IEN": "443",
+        "Name": "CK-MB %"
+    },
+    {
+        "IEN": "443",
+        "Name": "CK-MB PERCENT"
+    },
+    {
+        "IEN": "178",
+        "Name": "CL"
+    },
+    {
+        "IEN": "5076",
+        "Name": "CLEARANCE PANEL"
+    },
+    {
+        "IEN": "329",
+        "Name": "CLONAZEPAM"
+    },
+    {
+        "IEN": "1132",
+        "Name": "CLOSTRIDIUM DIFFICILE CULTURE/"
+    },
+    {
+        "IEN": "1132",
+        "Name": "CLOSTRIDIUM DIFFICILE CULTURE/TOXIN"
+    },
+    {
+        "IEN": "5126",
+        "Name": "CMP"
+    },
+    {
+        "IEN": "428",
+        "Name": "CMV"
+    },
+    {
+        "IEN": "179",
+        "Name": "CO2"
+    },
+    {
+        "IEN": "56",
+        "Name": "CO2CT. (TCO2)"
+    },
+    {
+        "IEN": "377",
+        "Name": "COAG PROFILE"
+    },
+    {
+        "IEN": "330",
+        "Name": "COBALT"
+    },
+    {
+        "IEN": "460",
+        "Name": "COCAINE"
+    },
+    {
+        "IEN": "1234",
+        "Name": "COCCIDIOIDES IDCF TITER"
+    },
+    {
+        "IEN": "1233",
+        "Name": "COCCIDIOIDES LPA TITER"
+    },
+    {
+        "IEN": "425",
+        "Name": "CODEINE"
+    },
+    {
+        "IEN": "49",
+        "Name": "COHB%"
+    },
+    {
+        "IEN": "124",
+        "Name": "COLD AGGLUTININS"
+    },
+    {
+        "IEN": "383",
+        "Name": "COLOR"
+    },
+    {
+        "IEN": "1213",
+        "Name": "COLORADO TICK FEVER TITER"
+    },
+    {
+        "IEN": "1243",
+        "Name": "COMP METABOLIC PANEL W-eGFR"
+    },
+    {
+        "IEN": "331",
+        "Name": "COMPLEMENT C2"
+    },
+    {
+        "IEN": "125",
+        "Name": "COMPLEMENT C3"
+    },
+    {
+        "IEN": "126",
+        "Name": "COMPLEMENT C4"
+    },
+    {
+        "IEN": "332",
+        "Name": "COMPLEMENT C5"
+    },
+    {
+        "IEN": "530",
+        "Name": "COMPLEMENT CH50"
+    },
+    {
+        "IEN": "333",
+        "Name": "COMPLEMENT DECAY RATE"
+    },
+    {
+        "IEN": "334",
+        "Name": "COMPLEMENT TOTAL"
+    },
+    {
+        "IEN": "114",
+        "Name": "COMPOUND F"
+    },
+    {
+        "IEN": "237",
+        "Name": "COMPOUND S"
+    },
+    {
+        "IEN": "300",
+        "Name": "COMPUTED CREATININE CLEARANCE"
+    },
+    {
+        "IEN": "345",
+        "Name": "COOMBS, DIRECT/INDIRECT"
+    },
+    {
+        "IEN": "225",
+        "Name": "COPPER"
+    },
+    {
+        "IEN": "335",
+        "Name": "COPROPORPHYRIN"
+    },
+    {
+        "IEN": "208",
+        "Name": "CORTICOTROPIN"
+    },
+    {
+        "IEN": "114",
+        "Name": "CORTISOL"
+    },
+    {
+        "IEN": "1207",
+        "Name": "COXSACKIE A 1-10 TITER"
+    },
+    {
+        "IEN": "1208",
+        "Name": "COXSACKIE B 1-6"
+    },
+    {
+        "IEN": "197",
+        "Name": "CPK "
+    },
+    {
+        "IEN": "1323",
+        "Name": "CPK ISO'S & TOTAL CPK"
+    },
+    {
+        "IEN": "1268",
+        "Name": "CPK PROFILE"
+    },
+    {
+        "IEN": "440",
+        "Name": "CPK-MB"
+    },
+    {
+        "IEN": "336",
+        "Name": "CREATINE"
+    },
+    {
+        "IEN": "173",
+        "Name": "CREATININE"
+    },
+    {
+        "IEN": "1242",
+        "Name": "CREATININE CLEARANCE"
+    },
+    {
+        "IEN": "123",
+        "Name": "CRP"
+    },
+    {
+        "IEN": "337",
+        "Name": "CRYOFIBRINOGEN"
+    },
+    {
+        "IEN": "127",
+        "Name": "CRYOGLOBULINS"
+    },
+    {
+        "IEN": "5116",
+        "Name": "CRYOPRECIPITATE - LAB"
+    },
+    {
+        "IEN": "774",
+        "Name": "CRYPTOSPORIDIUM"
+    },
+    {
+        "IEN": "46",
+        "Name": "CRYSTALS"
+    },
+    {
+        "IEN": "1420",
+        "Name": "CSF ALBUMIN"
+    },
+    {
+        "IEN": "225",
+        "Name": "CU"
+    },
+    {
+        "IEN": "548",
+        "Name": "CULT"
+    },
+    {
+        "IEN": "548",
+        "Name": "CULTURE & SUSCEPTIBILITY"
+    },
+    {
+        "IEN": "338",
+        "Name": "CYCLIC AMP"
+    },
+    {
+        "IEN": "1128",
+        "Name": "CYCLOSPORIN"
+    },
+    {
+        "IEN": "170",
+        "Name": "CYSTINE CRYSTALS"
+    },
+    {
+        "IEN": "432",
+        "Name": "CYSTINE QUANT"
+    },
+    {
+        "IEN": "296",
+        "Name": "CYTOLOGY"
+    },
+    {
+        "IEN": "187",
+        "Name": "D BILI"
+    },
+    {
+        "IEN": "521",
+        "Name": "D&N"
+    },
+    {
+        "IEN": "341",
+        "Name": "DEOXYCORTICOSTERONE"
+    },
+    {
+        "IEN": "367",
+        "Name": "DESIPRAMINE"
+    },
+    {
+        "IEN": "1140",
+        "Name": "DEXTROSE"
+    },
+    {
+        "IEN": "339",
+        "Name": "DHEA"
+    },
+    {
+        "IEN": "340",
+        "Name": "DHEA-S"
+    },
+    {
+        "IEN": "342",
+        "Name": "DIAZEPAM"
+    },
+    {
+        "IEN": "343",
+        "Name": "DIBUCAINE NUMBER"
+    },
+    {
+        "IEN": "557",
+        "Name": "DIC WORK-UP"
+    },
+    {
+        "IEN": "1269",
+        "Name": "DIFF"
+    },
+    {
+        "IEN": "1180",
+        "Name": "DIFF COUNT (FLUID)"
+    },
+    {
+        "IEN": "1269",
+        "Name": "DIFFERENTIAL COUNT"
+    },
+    {
+        "IEN": "106",
+        "Name": "DIGITOXIN"
+    },
+    {
+        "IEN": "107",
+        "Name": "DIGOXIN"
+    },
+    {
+        "IEN": "562",
+        "Name": "DIGOXIN (STAT)"
+    },
+    {
+        "IEN": "346",
+        "Name": "DIHYDROTESTOSTERONE"
+    },
+    {
+        "IEN": "210",
+        "Name": "DILANTIN"
+    },
+    {
+        "IEN": "187",
+        "Name": "DIR. BILIRUBIN"
+    },
+    {
+        "IEN": "5113",
+        "Name": "DIRECT ANTIGLOBULIN TEST - LAB"
+    },
+    {
+        "IEN": "345",
+        "Name": "DIRECT/INDIRECT AHG TEST"
+    },
+    {
+        "IEN": "222",
+        "Name": "DISOPYRAMIDE"
+    },
+    {
+        "IEN": "5125",
+        "Name": "DLDL"
+    },
+    {
+        "IEN": "367",
+        "Name": "DMI"
+    },
+    {
+        "IEN": "226",
+        "Name": "DNA"
+    },
+    {
+        "IEN": "1151",
+        "Name": "DOHLE BODIES"
+    },
+    {
+        "IEN": "5033",
+        "Name": "DONOR ALT"
+    },
+    {
+        "IEN": "496",
+        "Name": "DOPAMINE"
+    },
+    {
+        "IEN": "451",
+        "Name": "DOXEPIN"
+    },
+    {
+        "IEN": "521",
+        "Name": "DOXEPIN & N-DESMETHYLDOXEPIN"
+    },
+    {
+        "IEN": "8",
+        "Name": "DR. DEISS'"
+    },
+    {
+        "IEN": "1363",
+        "Name": "DRUG SCREEN (BLOOD)"
+    },
+    {
+        "IEN": "1322",
+        "Name": "DRUG SCREEN (URINE)"
+    },
+    {
+        "IEN": "1322",
+        "Name": "DRUGS OF ABUSE"
+    },
+    {
+        "IEN": "1206",
+        "Name": "ECHO,14,18,20,25,28 TITER"
+    },
+    {
+        "IEN": "1204",
+        "Name": "ECHO,2,3,4,7,8,11 TITER"
+    },
+    {
+        "IEN": "1205",
+        "Name": "ECHO,6,9,16,30 TITER"
+    },
+    {
+        "IEN": "1241",
+        "Name": "ELAPSED TIME"
+    },
+    {
+        "IEN": "372",
+        "Name": "ELECTROLYTES"
+    },
+    {
+        "IEN": "5080",
+        "Name": "ELISA FOR HIV"
+    },
+    {
+        "IEN": "15",
+        "Name": "EOSINO"
+    },
+    {
+        "IEN": "254",
+        "Name": "EPINEPHRINE"
+    },
+    {
+        "IEN": "1276",
+        "Name": "EPIS"
+    },
+    {
+        "IEN": "1276",
+        "Name": "EPITH CELLS"
+    },
+    {
+        "IEN": "1276",
+        "Name": "EPITHELIAL CELLS"
+    },
+    {
+        "IEN": "347",
+        "Name": "ERYTHROPOIETIN"
+    },
+    {
+        "IEN": "61",
+        "Name": "ESR"
+    },
+    {
+        "IEN": "287",
+        "Name": "ESR"
+    },
+    {
+        "IEN": "349",
+        "Name": "ESTRADIOL RECEPTOR ASSAY"
+    },
+    {
+        "IEN": "348",
+        "Name": "ESTRADIOL, 17-B"
+    },
+    {
+        "IEN": "350",
+        "Name": "ESTRIOL"
+    },
+    {
+        "IEN": "218",
+        "Name": "ESTROGEN"
+    },
+    {
+        "IEN": "195",
+        "Name": "ETHANOL"
+    },
+    {
+        "IEN": "818",
+        "Name": "ETHYLENE GLYCOL"
+    },
+    {
+        "IEN": "531",
+        "Name": "FACTOR II"
+    },
+    {
+        "IEN": "420",
+        "Name": "FACTOR IX"
+    },
+    {
+        "IEN": "419",
+        "Name": "FACTOR VII"
+    },
+    {
+        "IEN": "408",
+        "Name": "FACTOR VIII ACTIVITY"
+    },
+    {
+        "IEN": "409",
+        "Name": "FACTOR VIII ANTIGEN"
+    },
+    {
+        "IEN": "410",
+        "Name": "FACTOR VIII MULTIMER"
+    },
+    {
+        "IEN": "411",
+        "Name": "FACTOR VIII PROFILE"
+    },
+    {
+        "IEN": "421",
+        "Name": "FACTOR XII"
+    },
+    {
+        "IEN": "1197",
+        "Name": "FAST LTT"
+    },
+    {
+        "IEN": "469",
+        "Name": "FASTING GTT"
+    },
+    {
+        "IEN": "477",
+        "Name": "FASTING GTT (URINE)"
+    },
+    {
+        "IEN": "556",
+        "Name": "FATTY ACIDS, FREE"
+    },
+    {
+        "IEN": "160",
+        "Name": "FATTY CASTS"
+    },
+    {
+        "IEN": "1301",
+        "Name": "FBS"
+    },
+    {
+        "IEN": "104",
+        "Name": "FE"
+    },
+    {
+        "IEN": "128",
+        "Name": "FEBRILE AGGLUTINS"
+    },
+    {
+        "IEN": "1170",
+        "Name": "FECAL FAT"
+    },
+    {
+        "IEN": "1169",
+        "Name": "FECAL LEUKOCYTES"
+    },
+    {
+        "IEN": "113",
+        "Name": "FERRITIN"
+    },
+    {
+        "IEN": "36",
+        "Name": "FIBRIN SPLIT PRODUCTS"
+    },
+    {
+        "IEN": "35",
+        "Name": "FIBRINOGEN"
+    },
+    {
+        "IEN": "5065",
+        "Name": "FINGERSTICK GLUCOSE"
+    },
+    {
+        "IEN": "5088",
+        "Name": "FINSTICK GLUCOSE - BUFFALO"
+    },
+    {
+        "IEN": "47",
+        "Name": "FIO2"
+    },
+    {
+        "IEN": "1338",
+        "Name": "FLUID CHEMISTRIES"
+    },
+    {
+        "IEN": "1341",
+        "Name": "FLUID CHEMISTRIES"
+    },
+    {
+        "IEN": "1338",
+        "Name": "FLUID TESTS"
+    },
+    {
+        "IEN": "1341",
+        "Name": "FLUID TESTS"
+    },
+    {
+        "IEN": "109",
+        "Name": "FOLATE"
+    },
+    {
+        "IEN": "109",
+        "Name": "FOLIC ACID"
+    },
+    {
+        "IEN": "322",
+        "Name": "FREE T-4"
+    },
+    {
+        "IEN": "322",
+        "Name": "FREE THYROXINE"
+    },
+    {
+        "IEN": "418",
+        "Name": "FREE TRIIODOTHYRONINE"
+    },
+    {
+        "IEN": "5117",
+        "Name": "FRESH FROZEN PLASMA - LAB"
+    },
+    {
+        "IEN": "241",
+        "Name": "FSH"
+    },
+    {
+        "IEN": "36",
+        "Name": "FSP"
+    },
+    {
+        "IEN": "129",
+        "Name": "FTA"
+    },
+    {
+        "IEN": "140",
+        "Name": "FUNGAL ANTIGEN"
+    },
+    {
+        "IEN": "1175",
+        "Name": "FUNGAL IDENTIFICATION"
+    },
+    {
+        "IEN": "1166",
+        "Name": "FUNGAL SEROLOGY"
+    },
+    {
+        "IEN": "554",
+        "Name": "FUNGUS CULTURE"
+    },
+    {
+        "IEN": "829",
+        "Name": "G-6-PD, QUANTITATIVE"
+    },
+    {
+        "IEN": "192",
+        "Name": "GAMMA-GTP"
+    },
+    {
+        "IEN": "279",
+        "Name": "GAS"
+    },
+    {
+        "IEN": "242",
+        "Name": "GASTRIN"
+    },
+    {
+        "IEN": "1138",
+        "Name": "GC"
+    },
+    {
+        "IEN": "1138",
+        "Name": "GC CULTURE"
+    },
+    {
+        "IEN": "1310",
+        "Name": "GENTAMICIN"
+    },
+    {
+        "IEN": "1309",
+        "Name": "GENTAMICIN, PEAK"
+    },
+    {
+        "IEN": "219",
+        "Name": "GENTAMICIN, RANDOM"
+    },
+    {
+        "IEN": "1308",
+        "Name": "GENTAMICIN, TROUGH"
+    },
+    {
+        "IEN": "1294",
+        "Name": "GLU 2"
+    },
+    {
+        "IEN": "559",
+        "Name": "GLUCAGON"
+    },
+    {
+        "IEN": "175",
+        "Name": "GLUCOSE"
+    },
+    {
+        "IEN": "1294",
+        "Name": "GLUCOSE"
+    },
+    {
+        "IEN": "220",
+        "Name": "GLUCOSE TOLERANCE TEST"
+    },
+    {
+        "IEN": "5074",
+        "Name": "GLUCOSE rtn"
+    },
+    {
+        "IEN": "1140",
+        "Name": "GLUCOSE, OTHER"
+    },
+    {
+        "IEN": "1354",
+        "Name": "GLUCOSE, STAT"
+    },
+    {
+        "IEN": "117",
+        "Name": "GONADOTROPINS"
+    },
+    {
+        "IEN": "362",
+        "Name": "GRAM STAIN"
+    },
+    {
+        "IEN": "158",
+        "Name": "GRANULAR CASTS"
+    },
+    {
+        "IEN": "422",
+        "Name": "GROWTH HORMONE"
+    },
+    {
+        "IEN": "220",
+        "Name": "GTT"
+    },
+    {
+        "IEN": "1298",
+        "Name": "GTT,B"
+    },
+    {
+        "IEN": "1298",
+        "Name": "GTT,BLOOD"
+    },
+    {
+        "IEN": "476",
+        "Name": "GTT,U"
+    },
+    {
+        "IEN": "476",
+        "Name": "GTT,URINE"
+    },
+    {
+        "IEN": "1320",
+        "Name": "H & H"
+    },
+    {
+        "IEN": "1320",
+        "Name": "H&H"
+    },
+    {
+        "IEN": "96",
+        "Name": "HAM'S TEST"
+    },
+    {
+        "IEN": "130",
+        "Name": "HAPTOGLOBIN"
+    },
+    {
+        "IEN": "505",
+        "Name": "HAVAB"
+    },
+    {
+        "IEN": "1125",
+        "Name": "HB (HGB)"
+    },
+    {
+        "IEN": "131",
+        "Name": "HBSAG"
+    },
+    {
+        "IEN": "112",
+        "Name": "HCG"
+    },
+    {
+        "IEN": "515",
+        "Name": "HCG BETA, QUANT."
+    },
+    {
+        "IEN": "4",
+        "Name": "HCT"
+    },
+    {
+        "IEN": "244",
+        "Name": "HDL"
+    },
+    {
+        "IEN": "508",
+        "Name": "HEAB"
+    },
+    {
+        "IEN": "509",
+        "Name": "HEAG"
+    },
+    {
+        "IEN": "261",
+        "Name": "HEAVY METAL"
+    },
+    {
+        "IEN": "504",
+        "Name": "HEAVY METALS SCREEN"
+    },
+    {
+        "IEN": "1147",
+        "Name": "HELMET CELLS"
+    },
+    {
+        "IEN": "1220",
+        "Name": "HELPER T CELLS"
+    },
+    {
+        "IEN": "1222",
+        "Name": "HELPER/SUPPRESSOR T CELL RATIO"
+    },
+    {
+        "IEN": "398",
+        "Name": "HEMATOLOGY"
+    },
+    {
+        "IEN": "3",
+        "Name": "HEMOGLOBIN"
+    },
+    {
+        "IEN": "97",
+        "Name": "HEMOGLOBIN A1C"
+    },
+    {
+        "IEN": "162",
+        "Name": "HEMOSIDERIN"
+    },
+    {
+        "IEN": "505",
+        "Name": "HEPATITIS A ANTIBODY"
+    },
+    {
+        "IEN": "506",
+        "Name": "HEPATITIS B CORE ANTIBODY"
+    },
+    {
+        "IEN": "1127",
+        "Name": "HEPATITIS B SCREEN"
+    },
+    {
+        "IEN": "507",
+        "Name": "HEPATITIS B SURFACE ANTIBODY"
+    },
+    {
+        "IEN": "131",
+        "Name": "HEPATITIS B SURFACE ANTIGEN"
+    },
+    {
+        "IEN": "5079",
+        "Name": "HEPATITIS C ANTIBODY"
+    },
+    {
+        "IEN": "508",
+        "Name": "HEPATITIS E ANTIBODY"
+    },
+    {
+        "IEN": "509",
+        "Name": "HEPATITIS E ANTIGEN"
+    },
+    {
+        "IEN": "429",
+        "Name": "HERPES SIMPLEX,COMMON AG TITER"
+    },
+    {
+        "IEN": "243",
+        "Name": "HETEROPHIL"
+    },
+    {
+        "IEN": "3",
+        "Name": "HGB"
+    },
+    {
+        "IEN": "1320",
+        "Name": "HGB & HCT"
+    },
+    {
+        "IEN": "221",
+        "Name": "HGB ELECTROPHORESIS"
+    },
+    {
+        "IEN": "448",
+        "Name": "HGB SERUM FREE"
+    },
+    {
+        "IEN": "1320",
+        "Name": "HGB&HCT"
+    },
+    {
+        "IEN": "97",
+        "Name": "HGBA1C"
+    },
+    {
+        "IEN": "296",
+        "Name": "HISTOLOGY"
+    },
+    {
+        "IEN": "612",
+        "Name": "HISTOPLASMA COMPLEMENT TITER"
+    },
+    {
+        "IEN": "1362",
+        "Name": "HIV SCREEN"
+    },
+    {
+        "IEN": "484",
+        "Name": "HLA B27"
+    },
+    {
+        "IEN": "485",
+        "Name": "HLA B8"
+    },
+    {
+        "IEN": "525",
+        "Name": "HOMOVANILLIC ACID"
+    },
+    {
+        "IEN": "1152",
+        "Name": "HOWELL JOLLY BODIES"
+    },
+    {
+        "IEN": "112",
+        "Name": "HUMAN CHORIONIC GONADOTROPIN"
+    },
+    {
+        "IEN": "525",
+        "Name": "HVA"
+    },
+    {
+        "IEN": "157",
+        "Name": "HYALINE CASTS"
+    },
+    {
+        "IEN": "466",
+        "Name": "HYDROXYPROLINE-TOTAL"
+    },
+    {
+        "IEN": "356",
+        "Name": "HYPERSEGMENTED NEUTROPHILS"
+    },
+    {
+        "IEN": "30",
+        "Name": "HYPOCHROMIA"
+    },
+    {
+        "IEN": "520",
+        "Name": "I&D"
+    },
+    {
+        "IEN": "870",
+        "Name": "IGA"
+    },
+    {
+        "IEN": "872",
+        "Name": "IGG"
+    },
+    {
+        "IEN": "876",
+        "Name": "IGM"
+    },
+    {
+        "IEN": "368",
+        "Name": "IMI"
+    },
+    {
+        "IEN": "1130",
+        "Name": "IMI+DES"
+    },
+    {
+        "IEN": "368",
+        "Name": "IMIPRAMINE"
+    },
+    {
+        "IEN": "520",
+        "Name": "IMIPRAMINE & DESIPRAMINE"
+    },
+    {
+        "IEN": "513",
+        "Name": "IMMUNE COMPLEX-C1Q"
+    },
+    {
+        "IEN": "132",
+        "Name": "IMMUNO"
+    },
+    {
+        "IEN": "132",
+        "Name": "IMMUNOELECTROPHORESIS"
+    },
+    {
+        "IEN": "1313",
+        "Name": "IMMUNOGLOBULINS"
+    },
+    {
+        "IEN": "1313",
+        "Name": "IMMUNOS"
+    },
+    {
+        "IEN": "1108",
+        "Name": "INDIA INK"
+    },
+    {
+        "IEN": "1108",
+        "Name": "INDIA INK PREP"
+    },
+    {
+        "IEN": "1216",
+        "Name": "INFLUENZA A,BANGKOK TITER"
+    },
+    {
+        "IEN": "1217",
+        "Name": "INFLUENZA A,ENGLAND TITER"
+    },
+    {
+        "IEN": "1218",
+        "Name": "INFLUENZA A,PHILLIPINES TITER"
+    },
+    {
+        "IEN": "1219",
+        "Name": "INFLUENZA B,SINGAPORE"
+    },
+    {
+        "IEN": "1202",
+        "Name": "INFLUENZA TYPE A (TITER)"
+    },
+    {
+        "IEN": "881",
+        "Name": "INFLUENZA TYPE B (TITER)"
+    },
+    {
+        "IEN": "5110",
+        "Name": "INR"
+    },
+    {
+        "IEN": "111",
+        "Name": "INSULIN"
+    },
+    {
+        "IEN": "538",
+        "Name": "IONIZED CALCIUM"
+    },
+    {
+        "IEN": "104",
+        "Name": "IRON"
+    },
+    {
+        "IEN": "325",
+        "Name": "IRON GROUP"
+    },
+    {
+        "IEN": "116",
+        "Name": "IRON SATURATION"
+    },
+    {
+        "IEN": "456",
+        "Name": "ISOPROPANOL"
+    },
+    {
+        "IEN": "870",
+        "Name": "IgA"
+    },
+    {
+        "IEN": "872",
+        "Name": "IgG"
+    },
+    {
+        "IEN": "876",
+        "Name": "IgM"
+    },
+    {
+        "IEN": "177",
+        "Name": "K"
+    },
+    {
+        "IEN": "1271",
+        "Name": "KDA"
+    },
+    {
+        "IEN": "1316",
+        "Name": "KDA GLUCOSE"
+    },
+    {
+        "IEN": "510",
+        "Name": "KETONES"
+    },
+    {
+        "IEN": "1316",
+        "Name": "KGLUCOSE"
+    },
+    {
+        "IEN": "1107",
+        "Name": "KOH FUNGAL PREP"
+    },
+    {
+        "IEN": "274",
+        "Name": "LAB T"
+    },
+    {
+        "IEN": "199",
+        "Name": "LACTATE"
+    },
+    {
+        "IEN": "199",
+        "Name": "LACTIC ACID"
+    },
+    {
+        "IEN": "1275",
+        "Name": "LD PRO"
+    },
+    {
+        "IEN": "189",
+        "Name": "LDH"
+    },
+    {
+        "IEN": "441",
+        "Name": "LDH 1"
+    },
+    {
+        "IEN": "1275",
+        "Name": "LDH PROFILE"
+    },
+    {
+        "IEN": "901",
+        "Name": "LDL CHOLESTEROL"
+    },
+    {
+        "IEN": "5125",
+        "Name": "LDL Direct"
+    },
+    {
+        "IEN": "902",
+        "Name": "LDL-CHOL CALCULATION"
+    },
+    {
+        "IEN": "98",
+        "Name": "LE PREP"
+    },
+    {
+        "IEN": "262",
+        "Name": "LEAD"
+    },
+    {
+        "IEN": "1127",
+        "Name": "LEDI HEP B SCREEN"
+    },
+    {
+        "IEN": "5101",
+        "Name": "LEDI PSA"
+    },
+    {
+        "IEN": "5102",
+        "Name": "LEDIPSA"
+    },
+    {
+        "IEN": "1106",
+        "Name": "LEG CUL"
+    },
+    {
+        "IEN": "1105",
+        "Name": "LEG DFA"
+    },
+    {
+        "IEN": "1106",
+        "Name": "LEGIONELLA CULTURE"
+    },
+    {
+        "IEN": "1105",
+        "Name": "LEGIONELLA DFA"
+    },
+    {
+        "IEN": "171",
+        "Name": "LEUCINE CRYSTALS"
+    },
+    {
+        "IEN": "1195",
+        "Name": "LEUCOCYTE ESTERASE, URINE"
+    },
+    {
+        "IEN": "1129",
+        "Name": "LEUKOCYTE ALK PHOS SCORE"
+    },
+    {
+        "IEN": "266",
+        "Name": "LFT"
+    },
+    {
+        "IEN": "245",
+        "Name": "LH "
+    },
+    {
+        "IEN": "198",
+        "Name": "LI"
+    },
+    {
+        "IEN": "581",
+        "Name": "LIBRIUM"
+    },
+    {
+        "IEN": "512",
+        "Name": "LIDOCAINE"
+    },
+    {
+        "IEN": "372",
+        "Name": "LIGHTS"
+    },
+    {
+        "IEN": "1360",
+        "Name": "LIME DISEASE"
+    },
+    {
+        "IEN": "200",
+        "Name": "LIPASE"
+    },
+    {
+        "IEN": "488",
+        "Name": "LIPID PHENOTYPE EVAL."
+    },
+    {
+        "IEN": "1176",
+        "Name": "LIPID PROFILE"
+    },
+    {
+        "IEN": "555",
+        "Name": "LIPIDS, QUALITATIVE"
+    },
+    {
+        "IEN": "464",
+        "Name": "LIPIDS, TOTAL"
+    },
+    {
+        "IEN": "488",
+        "Name": "LIPOPROTEIN ELECTROPHORESIS"
+    },
+    {
+        "IEN": "493",
+        "Name": "LIPOPROTEIN, ALPHA"
+    },
+    {
+        "IEN": "491",
+        "Name": "LIPOPROTEIN, BETA"
+    },
+    {
+        "IEN": "492",
+        "Name": "LIPOPROTEIN, PRE-BETA"
+    },
+    {
+        "IEN": "41",
+        "Name": "LIQUIFACTION"
+    },
+    {
+        "IEN": "372",
+        "Name": "LITES"
+    },
+    {
+        "IEN": "198",
+        "Name": "LITHIUM"
+    },
+    {
+        "IEN": "266",
+        "Name": "LIVER FUNCTION TEST"
+    },
+    {
+        "IEN": "5086",
+        "Name": "LIVER PANEL 2"
+    },
+    {
+        "IEN": "266",
+        "Name": "LIVER PROFILE"
+    },
+    {
+        "IEN": "1156",
+        "Name": "LYMPH"
+    },
+    {
+        "IEN": "360",
+        "Name": "LYMPHOCYTE ATYPIA, MEAN"
+    },
+    {
+        "IEN": "13",
+        "Name": "LYMPHS"
+    },
+    {
+        "IEN": "372",
+        "Name": "LYTES"
+    },
+    {
+        "IEN": "28",
+        "Name": "MACROCYTOSIS"
+    },
+    {
+        "IEN": "528",
+        "Name": "MACROPHAGES"
+    },
+    {
+        "IEN": "201",
+        "Name": "MAGNESIUM"
+    },
+    {
+        "IEN": "1154",
+        "Name": "MALARIA FORMS"
+    },
+    {
+        "IEN": "503",
+        "Name": "MALARIA SMEAR"
+    },
+    {
+        "IEN": "1181",
+        "Name": "MALIGNANT CELLS"
+    },
+    {
+        "IEN": "391",
+        "Name": "MANGANESE"
+    },
+    {
+        "IEN": "1317",
+        "Name": "MANHATTEN"
+    },
+    {
+        "IEN": "517",
+        "Name": "MAPROTILINE-LUDIOMIL"
+    },
+    {
+        "IEN": "440",
+        "Name": "MB"
+    },
+    {
+        "IEN": "6",
+        "Name": "MCH"
+    },
+    {
+        "IEN": "7",
+        "Name": "MCHC"
+    },
+    {
+        "IEN": "5",
+        "Name": "MCV"
+    },
+    {
+        "IEN": "1155",
+        "Name": "MEGAKARYOCYTE"
+    },
+    {
+        "IEN": "240",
+        "Name": "MENEPHS"
+    },
+    {
+        "IEN": "1171",
+        "Name": "MENINGITIS ANTIGEN SCREEN"
+    },
+    {
+        "IEN": "423",
+        "Name": "MEPROBAMATE"
+    },
+    {
+        "IEN": "261",
+        "Name": "MERCURY"
+    },
+    {
+        "IEN": "45",
+        "Name": "MESOTHELIAL"
+    },
+    {
+        "IEN": "17",
+        "Name": "META"
+    },
+    {
+        "IEN": "5109",
+        "Name": "METABOLIC PANEL"
+    },
+    {
+        "IEN": "240",
+        "Name": "METANEPHRINES, TOT"
+    },
+    {
+        "IEN": "925",
+        "Name": "METHADONE"
+    },
+    {
+        "IEN": "455",
+        "Name": "METHANOL"
+    },
+    {
+        "IEN": "50",
+        "Name": "METHB%"
+    },
+    {
+        "IEN": "931",
+        "Name": "METHOTREXATE"
+    },
+    {
+        "IEN": "201",
+        "Name": "MG"
+    },
+    {
+        "IEN": "1253",
+        "Name": "MI TEST"
+    },
+    {
+        "IEN": "1253",
+        "Name": "MI TEST PANEL"
+    },
+    {
+        "IEN": "1162",
+        "Name": "MIC/MBC"
+    },
+    {
+        "IEN": "291",
+        "Name": "MICRO"
+    },
+    {
+        "IEN": "1420",
+        "Name": "MICRO ALBUMIN"
+    },
+    {
+        "IEN": "1420",
+        "Name": "MICROALBUMIN"
+    },
+    {
+        "IEN": "291",
+        "Name": "MICROBIOLOGY TEST LIST"
+    },
+    {
+        "IEN": "27",
+        "Name": "MICROCYTOSIS"
+    },
+    {
+        "IEN": "5107",
+        "Name": "MIKES NUMERIC TEST"
+    },
+    {
+        "IEN": "5075",
+        "Name": "MIKES PANEL W/IN PANEL"
+    },
+    {
+        "IEN": "1334",
+        "Name": "MISC MARYLAND"
+    },
+    {
+        "IEN": "1184",
+        "Name": "MISCELLANEOUS"
+    },
+    {
+        "IEN": "1334",
+        "Name": "MISCELLANEOUS"
+    },
+    {
+        "IEN": "5087",
+        "Name": "MJB CHEM TESTS"
+    },
+    {
+        "IEN": "391",
+        "Name": "MN"
+    },
+    {
+        "IEN": "134",
+        "Name": "MONO SPOT "
+    },
+    {
+        "IEN": "14",
+        "Name": "MONOCYTES"
+    },
+    {
+        "IEN": "42",
+        "Name": "MOTILITY"
+    },
+    {
+        "IEN": "638",
+        "Name": "MUCOPROTEIN"
+    },
+    {
+        "IEN": "554",
+        "Name": "MYCOLOGY CULTURE"
+    },
+    {
+        "IEN": "1117",
+        "Name": "MYCOLOGY SMEAR"
+    },
+    {
+        "IEN": "135",
+        "Name": "MYCOPLASMA TITER"
+    },
+    {
+        "IEN": "1124",
+        "Name": "MYELIN BASIC PROTEIN"
+    },
+    {
+        "IEN": "18",
+        "Name": "MYELO"
+    },
+    {
+        "IEN": "639",
+        "Name": "MYOGLOBIN"
+    },
+    {
+        "IEN": "246",
+        "Name": "MYSOLINE"
+    },
+    {
+        "IEN": "258",
+        "Name": "N-ACETYL PROCAINAMIDE"
+    },
+    {
+        "IEN": "522",
+        "Name": "N-DESMETHYLDOXEPIN"
+    },
+    {
+        "IEN": "447",
+        "Name": "N-MENG"
+    },
+    {
+        "IEN": "176",
+        "Name": "NA"
+    },
+    {
+        "IEN": "258",
+        "Name": "NAPA"
+    },
+    {
+        "IEN": "276",
+        "Name": "NEB-CBC"
+    },
+    {
+        "IEN": "358",
+        "Name": "NEUTROPHIL MATURITY, MEAN"
+    },
+    {
+        "IEN": "206",
+        "Name": "NH3"
+    },
+    {
+        "IEN": "1194",
+        "Name": "NITRITE, URINE"
+    },
+    {
+        "IEN": "465",
+        "Name": "NITROGEN"
+    },
+    {
+        "IEN": "282",
+        "Name": "NON SMAC CHEMISTRIES"
+    },
+    {
+        "IEN": "459",
+        "Name": "NORDIAZEPAM"
+    },
+    {
+        "IEN": "452",
+        "Name": "NORDOXEPIN"
+    },
+    {
+        "IEN": "255",
+        "Name": "NOREPINEPHRINE"
+    },
+    {
+        "IEN": "24",
+        "Name": "NORMOCHROMIC"
+    },
+    {
+        "IEN": "23",
+        "Name": "NORMOCYTIC"
+    },
+    {
+        "IEN": "222",
+        "Name": "NORPACE"
+    },
+    {
+        "IEN": "369",
+        "Name": "NORTRIPTYLINE"
+    },
+    {
+        "IEN": "239",
+        "Name": "NPTH"
+    },
+    {
+        "IEN": "397",
+        "Name": "NRBC/100 WBC"
+    },
+    {
+        "IEN": "397",
+        "Name": "NUCLEATED RBC/100WBC"
+    },
+    {
+        "IEN": "51",
+        "Name": "O2CT."
+    },
+    {
+        "IEN": "48",
+        "Name": "O2HB%  (SAT)"
+    },
+    {
+        "IEN": "1359",
+        "Name": "OCCULT BLOOD"
+    },
+    {
+        "IEN": "5064",
+        "Name": "OPC-MAG"
+    },
+    {
+        "IEN": "957",
+        "Name": "OPIATES"
+    },
+    {
+        "IEN": "203",
+        "Name": "OSMOLALITY"
+    },
+    {
+        "IEN": "203",
+        "Name": "OSMOLARITY"
+    },
+    {
+        "IEN": "99",
+        "Name": "OSMOTIC FRAGILITY"
+    },
+    {
+        "IEN": "1150",
+        "Name": "OTHER"
+    },
+    {
+        "IEN": "5118",
+        "Name": "OTHER - LAB"
+    },
+    {
+        "IEN": "1143",
+        "Name": "OVALOCYTES"
+    },
+    {
+        "IEN": "1311",
+        "Name": "OVER 50 PANEL"
+    },
+    {
+        "IEN": "1244",
+        "Name": "P2 PROFILE 2"
+    },
+    {
+        "IEN": "1245",
+        "Name": "P3"
+    },
+    {
+        "IEN": "1318",
+        "Name": "P3"
+    },
+    {
+        "IEN": "643",
+        "Name": "PAP SMEAR"
+    },
+    {
+        "IEN": "1153",
+        "Name": "PAPPENHEIMER BODIES"
+    },
+    {
+        "IEN": "550",
+        "Name": "PARASITE EXAM"
+    },
+    {
+        "IEN": "1255",
+        "Name": "PARASITOLOGY"
+    },
+    {
+        "IEN": "468",
+        "Name": "PARTIAL THROMBOPLASTIN TIME"
+    },
+    {
+        "IEN": "262",
+        "Name": "PB"
+    },
+    {
+        "IEN": "53",
+        "Name": "PCO2"
+    },
+    {
+        "IEN": "59",
+        "Name": "PCO2 AT PT. TEMP"
+    },
+    {
+        "IEN": "5030",
+        "Name": "PEDIATRIC UNIT PREPARATION"
+    },
+    {
+        "IEN": "442",
+        "Name": "PER CENT LD1"
+    },
+    {
+        "IEN": "443",
+        "Name": "PERCENT CPK-MB"
+    },
+    {
+        "IEN": "543",
+        "Name": "PG"
+    },
+    {
+        "IEN": "150",
+        "Name": "PH"
+    },
+    {
+        "IEN": "52",
+        "Name": "PH "
+    },
+    {
+        "IEN": "58",
+        "Name": "PH AT PT. TEMP"
+    },
+    {
+        "IEN": "426",
+        "Name": "PHENACETIN"
+    },
+    {
+        "IEN": "207",
+        "Name": "PHENOBARBITAL"
+    },
+    {
+        "IEN": "458",
+        "Name": "PHENYLPROPANOLAMINE"
+    },
+    {
+        "IEN": "210",
+        "Name": "PHENYTOIN"
+    },
+    {
+        "IEN": "181",
+        "Name": "PHOSPHORUS"
+    },
+    {
+        "IEN": "1164",
+        "Name": "PINWORM EXAM"
+    },
+    {
+        "IEN": "371",
+        "Name": "PLASMA CELLS"
+    },
+    {
+        "IEN": "529",
+        "Name": "PLATELET AGGREGATION"
+    },
+    {
+        "IEN": "9",
+        "Name": "PLATELET COUNT"
+    },
+    {
+        "IEN": "5119",
+        "Name": "PLATELETS - LAB"
+    },
+    {
+        "IEN": "9",
+        "Name": "PLT"
+    },
+    {
+        "IEN": "22",
+        "Name": "PLT"
+    },
+    {
+        "IEN": "529",
+        "Name": "PLT"
+    },
+    {
+        "IEN": "22",
+        "Name": "PLT (ESTM)"
+    },
+    {
+        "IEN": "285",
+        "Name": "PMN"
+    },
+    {
+        "IEN": "356",
+        "Name": "PMN'S"
+    },
+    {
+        "IEN": "446",
+        "Name": "PNEUMO"
+    },
+    {
+        "IEN": "280",
+        "Name": "PO2"
+    },
+    {
+        "IEN": "281",
+        "Name": "PO2 AT PT. TEMP"
+    },
+    {
+        "IEN": "181",
+        "Name": "PO4"
+    },
+    {
+        "IEN": "26",
+        "Name": "POIKILOCYTOSIS"
+    },
+    {
+        "IEN": "29",
+        "Name": "POLYCHROMASIA"
+    },
+    {
+        "IEN": "273",
+        "Name": "PORPHOBILINOGEN"
+    },
+    {
+        "IEN": "405",
+        "Name": "PORPHYRINS"
+    },
+    {
+        "IEN": "615",
+        "Name": "PORTER SILBER"
+    },
+    {
+        "IEN": "177",
+        "Name": "POTASSIUM"
+    },
+    {
+        "IEN": "436",
+        "Name": "PREALBUMIN"
+    },
+    {
+        "IEN": "246",
+        "Name": "PRIMIDONE"
+    },
+    {
+        "IEN": "1245",
+        "Name": "PRO 3"
+    },
+    {
+        "IEN": "247",
+        "Name": "PROCAINAMIDE"
+    },
+    {
+        "IEN": "1321",
+        "Name": "PROCAINAMIDES"
+    },
+    {
+        "IEN": "1245",
+        "Name": "PROFILE 3 (ROUTINE)"
+    },
+    {
+        "IEN": "1318",
+        "Name": "PROFILE 3 (STAT)"
+    },
+    {
+        "IEN": "248",
+        "Name": "PROLACTIN"
+    },
+    {
+        "IEN": "19",
+        "Name": "PROMYELOCYTES"
+    },
+    {
+        "IEN": "247",
+        "Name": "PRONESTYL"
+    },
+    {
+        "IEN": "486",
+        "Name": "PROPRANOLOL"
+    },
+    {
+        "IEN": "19",
+        "Name": "PROS"
+    },
+    {
+        "IEN": "5102",
+        "Name": "PROSTATE SPECIFIC ANTIGEN"
+    },
+    {
+        "IEN": "1003",
+        "Name": "PROTAMINE SULFATE"
+    },
+    {
+        "IEN": "184",
+        "Name": "PROTEIN,TOTAL"
+    },
+    {
+        "IEN": "467",
+        "Name": "PROTHROMBIM TIME"
+    },
+    {
+        "IEN": "467",
+        "Name": "PROTHROMBIN"
+    },
+    {
+        "IEN": "467",
+        "Name": "PROTIME"
+    },
+    {
+        "IEN": "403",
+        "Name": "PROTOPORPHYRIN"
+    },
+    {
+        "IEN": "5101",
+        "Name": "PSA"
+    },
+    {
+        "IEN": "5102",
+        "Name": "PSA"
+    },
+    {
+        "IEN": "467",
+        "Name": "PT"
+    },
+    {
+        "IEN": "378",
+        "Name": "PT CONTROL"
+    },
+    {
+        "IEN": "5110",
+        "Name": "PT INR"
+    },
+    {
+        "IEN": "5110",
+        "Name": "PT-INR"
+    },
+    {
+        "IEN": "57",
+        "Name": "PT. TEMP"
+    },
+    {
+        "IEN": "377",
+        "Name": "PT/PTT"
+    },
+    {
+        "IEN": "238",
+        "Name": "PTH (C-TERMINAL)"
+    },
+    {
+        "IEN": "239",
+        "Name": "PTH (INTACT)"
+    },
+    {
+        "IEN": "468",
+        "Name": "PTT"
+    },
+    {
+        "IEN": "377",
+        "Name": "PTT & PT"
+    },
+    {
+        "IEN": "379",
+        "Name": "PTT CONTROL"
+    },
+    {
+        "IEN": "1012",
+        "Name": "Q-FEVER (ACUTE) TITER"
+    },
+    {
+        "IEN": "1339",
+        "Name": "QRF"
+    },
+    {
+        "IEN": "1340",
+        "Name": "QRF"
+    },
+    {
+        "IEN": "555",
+        "Name": "QUALITATIVE FATS"
+    },
+    {
+        "IEN": "1339",
+        "Name": "QUANTITATIVE RHEUMATOID FACTOR"
+    },
+    {
+        "IEN": "1340",
+        "Name": "QUANTITATIVE RHEUMATOID FACTOR"
+    },
+    {
+        "IEN": "209",
+        "Name": "QUINIDINE"
+    },
+    {
+        "IEN": "2",
+        "Name": "RBC"
+    },
+    {
+        "IEN": "275",
+        "Name": "RBC MORPHOLOGY"
+    },
+    {
+        "IEN": "1259",
+        "Name": "RBC TEST PANEL"
+    },
+    {
+        "IEN": "416",
+        "Name": "RDW"
+    },
+    {
+        "IEN": "5120",
+        "Name": "RED BLOOD CELLS - LAB"
+    },
+    {
+        "IEN": "2",
+        "Name": "RED BLOOD COUNT"
+    },
+    {
+        "IEN": "2",
+        "Name": "RED COUNT"
+    },
+    {
+        "IEN": "1135",
+        "Name": "RENAL EPITHELIAL CELLS"
+    },
+    {
+        "IEN": "224",
+        "Name": "RENIN"
+    },
+    {
+        "IEN": "1021",
+        "Name": "RESP SYNCTIAL VIRUS TITER"
+    },
+    {
+        "IEN": "100",
+        "Name": "RETIC"
+    },
+    {
+        "IEN": "100",
+        "Name": "RETIC COUNT"
+    },
+    {
+        "IEN": "100",
+        "Name": "RETICULOCYTES"
+    },
+    {
+        "IEN": "435",
+        "Name": "RETINOL BINDING PROTEIN"
+    },
+    {
+        "IEN": "390",
+        "Name": "REV T-3"
+    },
+    {
+        "IEN": "136",
+        "Name": "RF"
+    },
+    {
+        "IEN": "136",
+        "Name": "RHEUMATOID FACTOR"
+    },
+    {
+        "IEN": "5084",
+        "Name": "RHEUMATOID FACTOR (OLD)"
+    },
+    {
+        "IEN": "5069",
+        "Name": "RIA PANEL"
+    },
+    {
+        "IEN": "283",
+        "Name": "RIA SET"
+    },
+    {
+        "IEN": "1023",
+        "Name": "ROCKY MTN SPOTTED FV. TITER"
+    },
+    {
+        "IEN": "1316",
+        "Name": "ROUTINE GLUCOSE"
+    },
+    {
+        "IEN": "137",
+        "Name": "RPR"
+    },
+    {
+        "IEN": "430",
+        "Name": "RUBELLA"
+    },
+    {
+        "IEN": "204",
+        "Name": "SALICYLATE"
+    },
+    {
+        "IEN": "1325",
+        "Name": "SALINE PREP"
+    },
+    {
+        "IEN": "1229",
+        "Name": "SALMONELLA A-H TITER"
+    },
+    {
+        "IEN": "1225",
+        "Name": "SALMONELLA A-O TITER"
+    },
+    {
+        "IEN": "1230",
+        "Name": "SALMONELLA B-H TITER"
+    },
+    {
+        "IEN": "1226",
+        "Name": "SALMONELLA B-O TITER"
+    },
+    {
+        "IEN": "1231",
+        "Name": "SALMONELLA C-H TITER"
+    },
+    {
+        "IEN": "1227",
+        "Name": "SALMONELLA C-O TITER"
+    },
+    {
+        "IEN": "1228",
+        "Name": "SALMONELLA D-O TITER"
+    },
+    {
+        "IEN": "1232",
+        "Name": "SALMONELLA TYPHI-H TITER"
+    },
+    {
+        "IEN": "1148",
+        "Name": "SCHISTOCYTES"
+    },
+    {
+        "IEN": "453",
+        "Name": "SCREEN, ALCOHOLS"
+    },
+    {
+        "IEN": "399",
+        "Name": "SE"
+    },
+    {
+        "IEN": "287",
+        "Name": "SED RATE"
+    },
+    {
+        "IEN": "11",
+        "Name": "SEGS"
+    },
+    {
+        "IEN": "399",
+        "Name": "SELENIUM"
+    },
+    {
+        "IEN": "277",
+        "Name": "SEMEN ANALYSIS"
+    },
+    {
+        "IEN": "295",
+        "Name": "SEROLOGY"
+    },
+    {
+        "IEN": "658",
+        "Name": "SEROTONIN"
+    },
+    {
+        "IEN": "448",
+        "Name": "SERUM FREE HGB"
+    },
+    {
+        "IEN": "5092",
+        "Name": "SET OF CODES"
+    },
+    {
+        "IEN": "190",
+        "Name": "SGOT"
+    },
+    {
+        "IEN": "191",
+        "Name": "SGPT"
+    },
+    {
+        "IEN": "1163",
+        "Name": "SIC/SBC"
+    },
+    {
+        "IEN": "101",
+        "Name": "SICKLE CELL PREP"
+    },
+    {
+        "IEN": "1145",
+        "Name": "SICKLE CELLS"
+    },
+    {
+        "IEN": "451",
+        "Name": "SINEQUAN"
+    },
+    {
+        "IEN": "5097",
+        "Name": "SKOGEE NOIS"
+    },
+    {
+        "IEN": "1244",
+        "Name": "SMA 12"
+    },
+    {
+        "IEN": "267",
+        "Name": "SMA 6"
+    },
+    {
+        "IEN": "1245",
+        "Name": "SMA 6"
+    },
+    {
+        "IEN": "1243",
+        "Name": "SMA I"
+    },
+    {
+        "IEN": "357",
+        "Name": "SMUDGE CELLS"
+    },
+    {
+        "IEN": "60",
+        "Name": "SOD"
+    },
+    {
+        "IEN": "176",
+        "Name": "SODIUM"
+    },
+    {
+        "IEN": "511",
+        "Name": "SOMATOMEDIN-C"
+    },
+    {
+        "IEN": "143",
+        "Name": "SPECIFIC GRAVITY"
+    },
+    {
+        "IEN": "223",
+        "Name": "SPEP"
+    },
+    {
+        "IEN": "43",
+        "Name": "SPERM COUNT"
+    },
+    {
+        "IEN": "278",
+        "Name": "SPERM MORPHOLOGY"
+    },
+    {
+        "IEN": "353",
+        "Name": "SPHEROCYTES"
+    },
+    {
+        "IEN": "1179",
+        "Name": "SPORE STRIP"
+    },
+    {
+        "IEN": "1134",
+        "Name": "SQUAMOUS EPITHELIAL"
+    },
+    {
+        "IEN": "1315",
+        "Name": "STAT GLUCOSE"
+    },
+    {
+        "IEN": "1179",
+        "Name": "STERILITY TEST"
+    },
+    {
+        "IEN": "540",
+        "Name": "STONE"
+    },
+    {
+        "IEN": "445",
+        "Name": "STREP B"
+    },
+    {
+        "IEN": "138",
+        "Name": "STREPTOZYME"
+    },
+    {
+        "IEN": "102",
+        "Name": "SUCROSE HEMOLYSIS"
+    },
+    {
+        "IEN": "175",
+        "Name": "SUGAR"
+    },
+    {
+        "IEN": "102",
+        "Name": "SUGAR WATER TEST"
+    },
+    {
+        "IEN": "1054",
+        "Name": "SULFONAMIDES"
+    },
+    {
+        "IEN": "1221",
+        "Name": "SUPPRESSOR T CELLS"
+    },
+    {
+        "IEN": "294",
+        "Name": "SURGICAL PATHOLOGY"
+    },
+    {
+        "IEN": "1183",
+        "Name": "SYNOVIAL LINING CELLS"
+    },
+    {
+        "IEN": "1223",
+        "Name": "T LYMPHOCYTES"
+    },
+    {
+        "IEN": "297",
+        "Name": "T-3 RESIN UPTAKE"
+    },
+    {
+        "IEN": "297",
+        "Name": "T-3 RU"
+    },
+    {
+        "IEN": "418",
+        "Name": "T-3,FREE"
+    },
+    {
+        "IEN": "108",
+        "Name": "T-4"
+    },
+    {
+        "IEN": "518",
+        "Name": "T-4 BINDING GLOBULIN"
+    },
+    {
+        "IEN": "118",
+        "Name": "T3 RIA"
+    },
+    {
+        "IEN": "1274",
+        "Name": "T4, FREE & TOTAL"
+    },
+    {
+        "IEN": "1264",
+        "Name": "T5"
+    },
+    {
+        "IEN": "31",
+        "Name": "TARGET CELLS"
+    },
+    {
+        "IEN": "1119",
+        "Name": "TB CULTURE & SMEAR"
+    },
+    {
+        "IEN": "546",
+        "Name": "TB SMEAR"
+    },
+    {
+        "IEN": "518",
+        "Name": "TBG"
+    },
+    {
+        "IEN": "545",
+        "Name": "TCA"
+    },
+    {
+        "IEN": "1144",
+        "Name": "TEARDROPS"
+    },
+    {
+        "IEN": "250",
+        "Name": "TEGRETOL"
+    },
+    {
+        "IEN": "373",
+        "Name": "TEGRETOL"
+    },
+    {
+        "IEN": "1281",
+        "Name": "TEST CBC/DIFF"
+    },
+    {
+        "IEN": "1263",
+        "Name": "TEST2"
+    },
+    {
+        "IEN": "1264",
+        "Name": "TEST5"
+    },
+    {
+        "IEN": "1250",
+        "Name": "TEST567890 234567890 T3456789O"
+    },
+    {
+        "IEN": "1262",
+        "Name": "TESTMICRO"
+    },
+    {
+        "IEN": "249",
+        "Name": "TESTOSTERONE"
+    },
+    {
+        "IEN": "1299",
+        "Name": "TESTPANEL"
+    },
+    {
+        "IEN": "5098",
+        "Name": "TESTPANEL 4 WNY"
+    },
+    {
+        "IEN": "1300",
+        "Name": "TESTPANEL2"
+    },
+    {
+        "IEN": "211",
+        "Name": "THEOPHYLLINE"
+    },
+    {
+        "IEN": "1064",
+        "Name": "THIOCYANATE"
+    },
+    {
+        "IEN": "38",
+        "Name": "THROMBIN TIME"
+    },
+    {
+        "IEN": "321",
+        "Name": "THYROID GROUP"
+    },
+    {
+        "IEN": "110",
+        "Name": "THYROID STIMULATING HORMONE"
+    },
+    {
+        "IEN": "108",
+        "Name": "THYROXINE"
+    },
+    {
+        "IEN": "105",
+        "Name": "TIBC"
+    },
+    {
+        "IEN": "1307",
+        "Name": "TOBRA"
+    },
+    {
+        "IEN": "1307",
+        "Name": "TOBRAMYCIN"
+    },
+    {
+        "IEN": "1306",
+        "Name": "TOBRAMYCIN, PEAK"
+    },
+    {
+        "IEN": "370",
+        "Name": "TOBRAMYCIN, RANDOM"
+    },
+    {
+        "IEN": "1305",
+        "Name": "TOBRAMYCIN, TROUGH"
+    },
+    {
+        "IEN": "1328",
+        "Name": "TOT EPI"
+    },
+    {
+        "IEN": "186",
+        "Name": "TOT. BILIRUBIN"
+    },
+    {
+        "IEN": "1290",
+        "Name": "TOTAL CELLS"
+    },
+    {
+        "IEN": "1337",
+        "Name": "TOTAL CELLS"
+    },
+    {
+        "IEN": "530",
+        "Name": "TOTAL COMPLEMENT CH50"
+    },
+    {
+        "IEN": "105",
+        "Name": "TOTAL IRON-BINDING"
+    },
+    {
+        "IEN": "184",
+        "Name": "TOTAL PROTEIN"
+    },
+    {
+        "IEN": "284",
+        "Name": "TOTAL WHITE COUNT ON CYTOPREP"
+    },
+    {
+        "IEN": "457",
+        "Name": "TOX"
+    },
+    {
+        "IEN": "457",
+        "Name": "TOX SCREEN"
+    },
+    {
+        "IEN": "1363",
+        "Name": "TOX SCREEN (BLOOD)"
+    },
+    {
+        "IEN": "1322",
+        "Name": "TOX SCREEN (URINE)"
+    },
+    {
+        "IEN": "1327",
+        "Name": "TOX SCREEN, URINE"
+    },
+    {
+        "IEN": "355",
+        "Name": "TOXIC GRANULATION"
+    },
+    {
+        "IEN": "427",
+        "Name": "TOXOPLASMA"
+    },
+    {
+        "IEN": "396",
+        "Name": "TRANSFERRIN"
+    },
+    {
+        "IEN": "5114",
+        "Name": "TRANSFUSION REACTION WORKUP - LAB"
+    },
+    {
+        "IEN": "1136",
+        "Name": "TRANSITIONAL EPITHELIAL CELLS"
+    },
+    {
+        "IEN": "436",
+        "Name": "TRANSTHYRETIN"
+    },
+    {
+        "IEN": "545",
+        "Name": "TRI CYCLIC ACID"
+    },
+    {
+        "IEN": "167",
+        "Name": "TRI PHOSPHATE CRYSTALS"
+    },
+    {
+        "IEN": "1126",
+        "Name": "TRICHOMONAS"
+    },
+    {
+        "IEN": "205",
+        "Name": "TRIGLYCERIDE"
+    },
+    {
+        "IEN": "205",
+        "Name": "TRIGS"
+    },
+    {
+        "IEN": "118",
+        "Name": "TRIIODOTHYRONINE"
+    },
+    {
+        "IEN": "5093",
+        "Name": "TROPONIN"
+    },
+    {
+        "IEN": "110",
+        "Name": "TSH 3rd GENERATION"
+    },
+    {
+        "IEN": "38",
+        "Name": "TT"
+    },
+    {
+        "IEN": "527",
+        "Name": "TUBE #"
+    },
+    {
+        "IEN": "400",
+        "Name": "TURBIDITY"
+    },
+    {
+        "IEN": "5115",
+        "Name": "TYPE & SCREEN - LAB"
+    },
+    {
+        "IEN": "1214",
+        "Name": "TYPHUS AB TITER"
+    },
+    {
+        "IEN": "172",
+        "Name": "TYROSINE CRYSTALS"
+    },
+    {
+        "IEN": "271",
+        "Name": "UA"
+    },
+    {
+        "IEN": "1348",
+        "Name": "UA"
+    },
+    {
+        "IEN": "489",
+        "Name": "UAPP"
+    },
+    {
+        "IEN": "153",
+        "Name": "UBAC"
+    },
+    {
+        "IEN": "146",
+        "Name": "UBILI"
+    },
+    {
+        "IEN": "1158",
+        "Name": "UBLD"
+    },
+    {
+        "IEN": "156",
+        "Name": "UCAS"
+    },
+    {
+        "IEN": "269",
+        "Name": "UCAS"
+    },
+    {
+        "IEN": "141",
+        "Name": "UCOL"
+    },
+    {
+        "IEN": "270",
+        "Name": "UCRY"
+    },
+    {
+        "IEN": "152",
+        "Name": "UEPI"
+    },
+    {
+        "IEN": "148",
+        "Name": "UGLU"
+    },
+    {
+        "IEN": "324",
+        "Name": "UIBC"
+    },
+    {
+        "IEN": "147",
+        "Name": "UKET"
+    },
+    {
+        "IEN": "154",
+        "Name": "UMUC"
+    },
+    {
+        "IEN": "324",
+        "Name": "UNSATURATED IRON BINDING CAPAC"
+    },
+    {
+        "IEN": "324",
+        "Name": "UNSATURATED IRON BINDING CAPACITY"
+    },
+    {
+        "IEN": "150",
+        "Name": "UPH"
+    },
+    {
+        "IEN": "149",
+        "Name": "UPRO"
+    },
+    {
+        "IEN": "272",
+        "Name": "URBC"
+    },
+    {
+        "IEN": "174",
+        "Name": "UREA NITROGEN"
+    },
+    {
+        "IEN": "174",
+        "Name": "UREA NITROGEN, BLOOD"
+    },
+    {
+        "IEN": "1348",
+        "Name": "URIC ACID - ACA"
+    },
+    {
+        "IEN": "182",
+        "Name": "URIC ACID - SMA"
+    },
+    {
+        "IEN": "169",
+        "Name": "URIC ACID CRYSTALS"
+    },
+    {
+        "IEN": "271",
+        "Name": "URINALYSIS"
+    },
+    {
+        "IEN": "5104",
+        "Name": "URINE *"
+    },
+    {
+        "IEN": "163",
+        "Name": "URINE 5HIAA"
+    },
+    {
+        "IEN": "1420",
+        "Name": "URINE ALBUMIN"
+    },
+    {
+        "IEN": "153",
+        "Name": "URINE BACTERIA"
+    },
+    {
+        "IEN": "146",
+        "Name": "URINE BILIRUBIN"
+    },
+    {
+        "IEN": "1158",
+        "Name": "URINE BLOOD"
+    },
+    {
+        "IEN": "269",
+        "Name": "URINE CASTS"
+    },
+    {
+        "IEN": "141",
+        "Name": "URINE COLOR"
+    },
+    {
+        "IEN": "270",
+        "Name": "URINE CRYSTALS"
+    },
+    {
+        "IEN": "142",
+        "Name": "URINE DENSITY"
+    },
+    {
+        "IEN": "5103",
+        "Name": "URINE DIFF"
+    },
+    {
+        "IEN": "1322",
+        "Name": "URINE DRUG SCREEN"
+    },
+    {
+        "IEN": "1254",
+        "Name": "URINE EPI BRONX"
+    },
+    {
+        "IEN": "152",
+        "Name": "URINE EPITH CELLS"
+    },
+    {
+        "IEN": "148",
+        "Name": "URINE GLUCOSE"
+    },
+    {
+        "IEN": "476",
+        "Name": "URINE GTT"
+    },
+    {
+        "IEN": "162",
+        "Name": "URINE HEMOSIDERIN"
+    },
+    {
+        "IEN": "147",
+        "Name": "URINE KETONES"
+    },
+    {
+        "IEN": "154",
+        "Name": "URINE MUCUS"
+    },
+    {
+        "IEN": "150",
+        "Name": "URINE PH"
+    },
+    {
+        "IEN": "164",
+        "Name": "URINE PORPHOBILINOGEN"
+    },
+    {
+        "IEN": "149",
+        "Name": "URINE PROTEIN"
+    },
+    {
+        "IEN": "156",
+        "Name": "URINE RBC CASTS"
+    },
+    {
+        "IEN": "5105",
+        "Name": "URINE RBC*"
+    },
+    {
+        "IEN": "272",
+        "Name": "URINE RBC/HPF"
+    },
+    {
+        "IEN": "1327",
+        "Name": "URINE TOX SCREEN"
+    },
+    {
+        "IEN": "155",
+        "Name": "URINE WBC CASTS"
+    },
+    {
+        "IEN": "5106",
+        "Name": "URINE WBC*"
+    },
+    {
+        "IEN": "151",
+        "Name": "URINE WBC/HPF"
+    },
+    {
+        "IEN": "161",
+        "Name": "URINE YEAST"
+    },
+    {
+        "IEN": "144",
+        "Name": "UROBILINOGEN"
+    },
+    {
+        "IEN": "404",
+        "Name": "UROPORPHYRIN"
+    },
+    {
+        "IEN": "143",
+        "Name": "USG"
+    },
+    {
+        "IEN": "1327",
+        "Name": "UTS"
+    },
+    {
+        "IEN": "1277",
+        "Name": "UURO"
+    },
+    {
+        "IEN": "151",
+        "Name": "UWBC"
+    },
+    {
+        "IEN": "155",
+        "Name": "UWCAS"
+    },
+    {
+        "IEN": "342",
+        "Name": "VALIUM"
+    },
+    {
+        "IEN": "665",
+        "Name": "VALPROIC ACID"
+    },
+    {
+        "IEN": "1280",
+        "Name": "VANCOMYCIN"
+    },
+    {
+        "IEN": "1279",
+        "Name": "VANCOMYCIN, PEAK"
+    },
+    {
+        "IEN": "385",
+        "Name": "VANCOMYCIN, RANDOM"
+    },
+    {
+        "IEN": "1278",
+        "Name": "VANCOMYCIN, TROUGH"
+    },
+    {
+        "IEN": "1077",
+        "Name": "VARICELLA ZOSTER(VZ) AB TITER"
+    },
+    {
+        "IEN": "139",
+        "Name": "VDRL"
+    },
+    {
+        "IEN": "1314",
+        "Name": "VDRL(NORTHAMPTON)"
+    },
+    {
+        "IEN": "139",
+        "Name": "VENEREAL DISEASE RESEARCH LABO"
+    },
+    {
+        "IEN": "139",
+        "Name": "VENEREAL DISEASE RESEARCH LABORATORY"
+    },
+    {
+        "IEN": "1182",
+        "Name": "VENTRICULAR LINING CELLS"
+    },
+    {
+        "IEN": "1141",
+        "Name": "VIBRIO CULTURE"
+    },
+    {
+        "IEN": "1081",
+        "Name": "VIRAL CULTURE"
+    },
+    {
+        "IEN": "5099",
+        "Name": "VIRAL LOAD"
+    },
+    {
+        "IEN": "1165",
+        "Name": "VIRAL SEROLOGY"
+    },
+    {
+        "IEN": "40",
+        "Name": "VISCOSITY"
+    },
+    {
+        "IEN": "393",
+        "Name": "VITAMIN A"
+    },
+    {
+        "IEN": "669",
+        "Name": "VITAMIN B-12"
+    },
+    {
+        "IEN": "487",
+        "Name": "VITAMIN C"
+    },
+    {
+        "IEN": "392",
+        "Name": "VITAMIN D 25 0H"
+    },
+    {
+        "IEN": "394",
+        "Name": "VITAMIN E"
+    },
+    {
+        "IEN": "431",
+        "Name": "VITIMIN D 1,25 OH"
+    },
+    {
+        "IEN": "256",
+        "Name": "VMA"
+    },
+    {
+        "IEN": "406",
+        "Name": "VOLUME"
+    },
+    {
+        "IEN": "159",
+        "Name": "WAXY CASTS"
+    },
+    {
+        "IEN": "1",
+        "Name": "WBC"
+    },
+    {
+        "IEN": "287",
+        "Name": "WESTERGREN SED RATE"
+    },
+    {
+        "IEN": "5081",
+        "Name": "WESTERN BLOT"
+    },
+    {
+        "IEN": "1",
+        "Name": "WHITE BLOOD COUNT"
+    },
+    {
+        "IEN": "1",
+        "Name": "WHITE COUNT"
+    },
+    {
+        "IEN": "5121",
+        "Name": "WHOLE BLOOD - LAB"
+    },
+    {
+        "IEN": "500",
+        "Name": "WI"
+    },
+    {
+        "IEN": "500",
+        "Name": "WINTROBE ESR & CBC"
+    },
+    {
+        "IEN": "61",
+        "Name": "WINTROBE*"
+    },
+    {
+        "IEN": "1115",
+        "Name": "WINTROBE, WESTERGREN, CBC"
+    },
+    {
+        "IEN": "161",
+        "Name": "YEA"
+    },
+    {
+        "IEN": "1131",
+        "Name": "YERSINIA"
+    },
+    {
+        "IEN": "1131",
+        "Name": "YERSINIA CULTURE"
+    },
+    {
+        "IEN": "252",
+        "Name": "ZINC"
+    },
+    {
+        "IEN": "5085",
+        "Name": "ZJMS"
+    },
+    {
+        "IEN": "252",
+        "Name": "ZN"
+    },
+    {
+        "IEN": "1177",
+        "Name": "ZZ CBC PROFILE"
+    },
+    {
+        "IEN": "1270",
+        "Name": "ZZ DUMMY"
+    },
+    {
+        "IEN": "133",
+        "Name": "ZZ IMMUNOGLOBULINS"
+    },
+    {
+        "IEN": "1258",
+        "Name": "ZZ JOHNTST"
+    },
+    {
+        "IEN": "1331",
+        "Name": "ZZ JOHNTST"
+    },
+    {
+        "IEN": "5096",
+        "Name": "ZZ NBUSED"
+    },
+    {
+        "IEN": "1251",
+        "Name": "ZZ NEW TEST2"
+    },
+    {
+        "IEN": "1267",
+        "Name": "ZZ NEW TEST2"
+    },
+    {
+        "IEN": "1249",
+        "Name": "ZZ NEW TEST4"
+    },
+    {
+        "IEN": "1265",
+        "Name": "ZZ NEW TEST4"
+    },
+    {
+        "IEN": "5097",
+        "Name": "ZZ NOT USED 2"
+    },
+    {
+        "IEN": "1266",
+        "Name": "ZZ NTEST"
+    },
+    {
+        "IEN": "145",
+        "Name": "ZZ OCCULT BLOOD"
+    },
+    {
+        "IEN": "34",
+        "Name": "ZZ PARTIAL THROMBOPLASTIN TIME"
+    },
+    {
+        "IEN": "33",
+        "Name": "ZZ PROTHROMBIN TIME"
+    },
+    {
+        "IEN": "1332",
+        "Name": "ZZ RBC TEST 1"
+    },
+    {
+        "IEN": "1329",
+        "Name": "ZZ TEST1"
+    },
+    {
+        "IEN": "1312",
+        "Name": "ZZ URINE EPI CELLS"
+    },
+    {
+        "IEN": "1252",
+        "Name": "ZZ URINE EPITH TOTAL"
+    },
+    {
+        "IEN": "1328",
+        "Name": "ZZ URINE EPITH TOTAL"
+    },
+    {
+        "IEN": "1257",
+        "Name": "ZZ URINE UROBILINOGEN"
+    },
+    {
+        "IEN": "1330",
+        "Name": "ZZ URINE UROBILINOGEN"
+    },
+    {
+        "IEN": "501",
+        "Name": "ZZ WESTERGREN ESR & CBC"
+    },
+    {
+        "IEN": "580",
+        "Name": "ZZCEA-S, RIA"
+    },
+    {
+        "IEN": "5082",
+        "Name": "ZZCULTURE"
+    },
+    {
+        "IEN": "5125",
+        "Name": "ZZDirect LDL"
+    },
+    {
+        "IEN": "5085",
+        "Name": "ZZJEANIE(GLUCOSE PANEL)"
+    },
+    {
+        "IEN": "1277",
+        "Name": "ZZUROBILINOGEN"
+    },
+    {
+        "IEN": "5090",
+        "Name": "`13055"
+    },
+    {
+        "IEN": "1250",
+        "Name": "abcdefghijklmno"
+    },
+    {
+        "IEN": "1250",
+        "Name": "testitagainsam"
+    }
+]

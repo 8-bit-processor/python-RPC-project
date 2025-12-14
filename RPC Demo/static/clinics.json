@@ -1,0 +1,17 @@
+[
+    {"name": "CARDIOLOGY", "ien": "100"},
+    {"name": "GENERAL MEDICINE", "ien": "101"},
+    {"name": "GENERAL SURGERY", "ien": "102"},
+    {"name": "LABORATORY", "ien": "103"},
+    {"name": "MAMMOGRAM", "ien": "104"},
+    {"name": "NEPHROLOGY", "ien": "105"},
+    {"name": "NUCLEAR MEDICINE", "ien": "106"},
+    {"name": "OBSERVATION", "ien": "107"},
+    {"name": "PLASTIC SURGERY", "ien": "108"},
+    {"name": "PODIATRY", "ien": "109"},
+    {"name": "PRIMARY CARE", "ien": "200"},
+    {"name": "PSYCHIATRY", "ien": "110"},
+    {"name": "RADIOLOGY", "ien": "111"},
+    {"name": "SOCIAL WORK", "ien": "112"},
+    {"name": "SURGICAL CLINIC", "ien": "113"}
+]
